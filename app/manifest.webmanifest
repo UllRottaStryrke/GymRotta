@@ -1,0 +1,20 @@
+{
+  "name": "StrengthApp",
+  "short_name": "Strength",
+  "description": "Enkel logger for ukentlige styrkeprogrammer fra JSON.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#1e293b",
+  "lang": "no",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
