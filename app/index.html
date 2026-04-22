@@ -214,6 +214,31 @@
       margin-bottom: 0;
       padding-bottom: 0;
     }
+    .rating-bar {
+      display: flex;
+      gap: 0;
+      margin-top: 14px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    .rating-btn {
+      flex: 1;
+      padding: 9px 4px;
+      font-size: 13px;
+      font-weight: 600;
+      border: 0;
+      background: var(--surface-2);
+      color: var(--muted);
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+      min-height: 42px;
+      border-right: 1px solid var(--border);
+    }
+    .rating-btn:last-child { border-right: 0; }
+    .rating-btn.active-easy   { background: #1d4ed8; color: #bfdbfe; }
+    .rating-btn.active-ok     { background: #166534; color: #bbf7d0; }
+    .rating-btn.active-hard   { background: #991b1b; color: #fecaca; }
     footer {
       position: fixed;
       bottom: 0;
@@ -590,8 +615,38 @@
           });
         }
         card.appendChild(wrap);
+        card.appendChild(renderRatingBar(ex));
 
         return card;
+      }
+
+      const RATINGS = [
+        { key: "too_easy", label: "For lett", cls: "active-easy" },
+        { key: "ok",       label: "Passelig", cls: "active-ok"   },
+        { key: "too_hard", label: "For hard", cls: "active-hard"  }
+      ];
+
+      function renderRatingBar(ex) {
+        const bar = document.createElement("div");
+        bar.className = "rating-bar";
+        const btns = [];
+        RATINGS.forEach(({ key, label, cls }) => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "rating-btn" + (ex.session_rating === key ? " " + cls : "");
+          btn.textContent = label;
+          btn.addEventListener("click", () => {
+            // Toggle off if already selected, otherwise select
+            ex.session_rating = ex.session_rating === key ? null : key;
+            btns.forEach((b, i) => {
+              b.className = "rating-btn" + (ex.session_rating === RATINGS[i].key ? " " + RATINGS[i].cls : "");
+            });
+            saveProgram();
+          });
+          btns.push(btn);
+          bar.appendChild(btn);
+        });
+        return bar;
       }
 
       function makeSimpleRow(ex, set, i) {

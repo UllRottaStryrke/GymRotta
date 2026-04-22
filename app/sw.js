@@ -1,5 +1,5 @@
 // Bump this string any time the app shell changes to invalidate old caches.
-const CACHE = "strengthapp-v2";
+const CACHE = "strengthapp-v3";
 const ASSETS = [
   "./",
   "./index.html",
