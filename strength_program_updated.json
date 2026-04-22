@@ -1,0 +1,5311 @@
+{
+  "metadata": {
+    "athlete": {
+      "bodyweight_kg": 93,
+      "training_maxes": {
+        "back_squat_kg": 100,
+        "deadlift_kg": 117.5,
+        "bench_press_kg": 85,
+        "overhead_press_kg": 67.5,
+        "weighted_pullup_effective_kg": 97.5
+      },
+      "notes": "Right shoulder injury \u2014 monitor all pressing. Lower back strengthening priority."
+    },
+    "program": {
+      "name": "Upper/Lower 5-Day Strength Program",
+      "weeks_total": 12,
+      "deload_weeks": [
+        4,
+        8,
+        12
+      ],
+      "split": "Mon: Upper A | Tue: Lower A | Wed: Upper B | Thu: Lower B | Fri: Upper C"
+    }
+  },
+  "weeks": [
+    {
+      "week_number": 1,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Upper A",
+          "focus": "Push",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Face pull (cable)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Light \u2014 prehab",
+              "rpe": 5,
+              "confirmed": true,
+              "notes": "Rear delt and external rotation. Shoulder prehab \u2014 do not skip."
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": null,
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": true,
+              "notes": "Activation only. No fatigue."
+            },
+            {
+              "name": "Bench press warm-up",
+              "tier": null,
+              "sets": 3,
+              "reps": 5,
+              "reps_note": null,
+              "load_kg": [
+                20,
+                45,
+                62.5
+              ],
+              "load_note": "Bar \u2192 50% \u2192 70% of T1",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Bar, then ramp to working weight."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell bench press",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 60.0 kg",
+              "load_kg": {
+                "heavy": 90,
+                "backoff": 60
+              },
+              "load_note": "heavy kg / back-off kg",
+              "rpe": {
+                "heavy": 9,
+                "backoff": 7
+              },
+              "confirmed": true,
+              "notes": "Elbows 45\u201360\u00b0. Keep 90 kg fixed; back-off progresses weekly. Shoulder protocol."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 22.5,
+              "load_note": "per hand, neutral grip",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Neutral grip reduces shoulder strain."
+            },
+            {
+              "name": "Overhead press (barbell)",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 50,
+              "load_note": "kg total",
+              "rpe": 8,
+              "confirmed": true,
+              "notes": "CAT \u2014 drive the bar explosively. Full lockout at top."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Tuesday",
+          "session": "Lower A",
+          "focus": "Squat + lower back",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Back squat",
+              "tier": "T1",
+              "sets": 5,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 85,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "CAT on the way up. Brace hard before descent.",
+              "actual_sets": [
+                {
+                  "reps": 4,
+                  "load_kg": 85,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:06:57.309Z"
+                },
+                {
+                  "reps": 4,
+                  "load_kg": 85,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:09:21.879Z"
+                },
+                {
+                  "reps": 4,
+                  "load_kg": 85,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:11:58.495Z"
+                },
+                {
+                  "reps": 4,
+                  "load_kg": 85,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:14:04.314Z"
+                },
+                {
+                  "reps": 4,
+                  "load_kg": 85,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:19:08.575Z"
+                }
+              ]
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 82.5,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Hip hinge, neutral spine throughout. Focus on hamstring stretch at bottom.",
+              "actual_sets": [
+                {
+                  "reps": 8,
+                  "load_kg": 82.5,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:22:38.229Z"
+                },
+                {
+                  "reps": 8,
+                  "load_kg": 82.5,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:27:07.676Z"
+                },
+                {
+                  "reps": 8,
+                  "load_kg": 82.5,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:37:05.810Z"
+                }
+              ]
+            },
+            {
+              "name": "Leg press",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 50.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Volume accumulation.",
+              "actual_sets": [
+                {
+                  "reps": 12,
+                  "load_kg": 50,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:37:03.344Z"
+                },
+                {
+                  "reps": 12,
+                  "load_kg": 50,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:38:36.065Z"
+                },
+                {
+                  "reps": 12,
+                  "load_kg": 50,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:41:50.508Z"
+                }
+              ]
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 10.0,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "confirmed": true,
+              "notes": "Lower back erector strength. Foundational.",
+              "actual_sets": [
+                {
+                  "reps": 15,
+                  "load_kg": 10,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:43:49.015Z"
+                },
+                {
+                  "reps": 15,
+                  "load_kg": 10,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:45:01.003Z"
+                },
+                {
+                  "reps": 15,
+                  "load_kg": 10,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:49:16.161Z"
+                }
+              ]
+            },
+            {
+              "name": "Calf raise (machine)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 47.5,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "",
+              "actual_sets": [
+                {
+                  "reps": 15,
+                  "load_kg": 47.7,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:50:50.988Z"
+                },
+                {
+                  "reps": 15,
+                  "load_kg": 47.7,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:52:17.724Z"
+                },
+                {
+                  "reps": 15,
+                  "load_kg": 47.7,
+                  "completed": true,
+                  "completed_at": "2026-04-21T04:55:28.307Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "session": "Upper B",
+          "focus": "Pull",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Weighted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 0,
+              "load_note": "Bodyweight only",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Lat pulldown is acceptable substitute if fatigued."
+            },
+            {
+              "name": "Barbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Mid-back thickness."
+            },
+            {
+              "name": "Overhead press (dumbbell, seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 22.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Shoulder stability \u2014 moderate load, not max effort."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Barbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": ""
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": false,
+              "notes": "Shoulder prehab."
+            },
+            {
+              "name": "Dead bug",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Deep core and lower back stability."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Lower B",
+          "focus": "Deadlift + posterior chain",
+          "estimated_duration_minutes": 65,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Conventional deadlift",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 3,
+              "reps_note": null,
+              "load_kg": 100,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Brace hard. Neutral spine throughout. If lower back is accumulated from Tuesday, reduce 15% and treat as technique day."
+            },
+            {
+              "name": "Front squat or goblet squat",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 70,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Technique focus. Quad and upper back complement to Monday squat."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each leg",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Single-leg stability and hip balance."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Good morning (barbell, light)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "kg \u2014 keep it light",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Spinal erector endurance. Low load \u2014 not a strength exercise."
+            },
+            {
+              "name": "Pallof press (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Anti-rotation core stability."
+            },
+            {
+              "name": "Nordic curl or glute-ham raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Hamstring and lower back tie-in."
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "session": "Upper C",
+          "focus": "Volume + weak points",
+          "estimated_duration_minutes": 55,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Cable chest fly",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 9,
+              "load_note": "per side",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder-friendly chest isolation. Feel the stretch at bottom."
+            },
+            {
+              "name": "Seated cable row (wide grip)",
+              "tier": "T2",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 45,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Mid-back thickness accumulation."
+            },
+            {
+              "name": "Dumbbell overhead press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 22.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder stability \u2014 moderate load."
+            },
+            {
+              "name": "Chest-supported dumbbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 20,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Lower back removed from the equation entirely."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Incline dumbbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Bicep stretch position."
+            },
+            {
+              "name": "Triceps overhead extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Long head tricep."
+            },
+            {
+              "name": "McGill bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Lower back endurance and motor control. Always done last \u2014 end of week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 2,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Upper A",
+          "focus": "Push",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Face pull (cable)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Light \u2014 prehab",
+              "rpe": 5,
+              "confirmed": true,
+              "notes": "Rear delt and external rotation. Shoulder prehab \u2014 do not skip."
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": null,
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": true,
+              "notes": "Activation only. No fatigue."
+            },
+            {
+              "name": "Bench press warm-up",
+              "tier": null,
+              "sets": 3,
+              "reps": 5,
+              "reps_note": null,
+              "load_kg": [
+                20,
+                45,
+                62.5
+              ],
+              "load_note": "Bar \u2192 50% \u2192 70% of T1",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Bar, then ramp to working weight."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell bench press",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 61.25 kg",
+              "load_kg": {
+                "heavy": 90,
+                "backoff": 61.25
+              },
+              "load_note": "heavy kg / back-off kg",
+              "rpe": {
+                "heavy": 9,
+                "backoff": 7
+              },
+              "confirmed": true,
+              "notes": "Elbows 45\u201360\u00b0. Keep 90 kg fixed; back-off progresses weekly. Shoulder protocol."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 23.75,
+              "load_note": "per hand, neutral grip",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Neutral grip reduces shoulder strain."
+            },
+            {
+              "name": "Overhead press (barbell)",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 52.5,
+              "load_note": "kg total",
+              "rpe": 8,
+              "confirmed": true,
+              "notes": "CAT \u2014 drive the bar explosively. Full lockout at top."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Tuesday",
+          "session": "Lower A",
+          "focus": "Squat + lower back",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Back squat",
+              "tier": "T1",
+              "sets": 5,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 90,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "CAT on the way up. Brace hard before descent."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 85,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Hip hinge, neutral spine throughout. Focus on hamstring stretch at bottom."
+            },
+            {
+              "name": "Leg press",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 55.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Volume accumulation."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 12.5,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "confirmed": true,
+              "notes": "Lower back erector strength. Foundational."
+            },
+            {
+              "name": "Calf raise (machine)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 50.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "session": "Upper B",
+          "focus": "Pull",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Weighted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 0,
+              "load_note": "Bodyweight only",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Lat pulldown is acceptable substitute if fatigued."
+            },
+            {
+              "name": "Barbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Mid-back thickness."
+            },
+            {
+              "name": "Overhead press (dumbbell, seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 23.75,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Shoulder stability \u2014 moderate load, not max effort."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Barbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": ""
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": false,
+              "notes": "Shoulder prehab."
+            },
+            {
+              "name": "Dead bug",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Deep core and lower back stability."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Lower B",
+          "focus": "Deadlift + posterior chain",
+          "estimated_duration_minutes": 65,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Conventional deadlift",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 3,
+              "reps_note": null,
+              "load_kg": 105,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Brace hard. Neutral spine throughout. If lower back is accumulated from Tuesday, reduce 15% and treat as technique day."
+            },
+            {
+              "name": "Front squat or goblet squat",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 72.5,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Technique focus. Quad and upper back complement to Monday squat."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each leg",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Single-leg stability and hip balance."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Good morning (barbell, light)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "kg \u2014 keep it light",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Spinal erector endurance. Low load \u2014 not a strength exercise."
+            },
+            {
+              "name": "Pallof press (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Anti-rotation core stability."
+            },
+            {
+              "name": "Nordic curl or glute-ham raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Hamstring and lower back tie-in."
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "session": "Upper C",
+          "focus": "Volume + weak points",
+          "estimated_duration_minutes": 55,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Cable chest fly",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 9.9,
+              "load_note": "per side",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder-friendly chest isolation. Feel the stretch at bottom."
+            },
+            {
+              "name": "Seated cable row (wide grip)",
+              "tier": "T2",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 47.5,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Mid-back thickness accumulation."
+            },
+            {
+              "name": "Dumbbell overhead press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 23.75,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder stability \u2014 moderate load."
+            },
+            {
+              "name": "Chest-supported dumbbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 21.25,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Lower back removed from the equation entirely."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Incline dumbbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Bicep stretch position."
+            },
+            {
+              "name": "Triceps overhead extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Long head tricep."
+            },
+            {
+              "name": "McGill bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Lower back endurance and motor control. Always done last \u2014 end of week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 3,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Upper A",
+          "focus": "Push",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Face pull (cable)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Light \u2014 prehab",
+              "rpe": 5,
+              "confirmed": true,
+              "notes": "Rear delt and external rotation. Shoulder prehab \u2014 do not skip."
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": null,
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": true,
+              "notes": "Activation only. No fatigue."
+            },
+            {
+              "name": "Bench press warm-up",
+              "tier": null,
+              "sets": 3,
+              "reps": 5,
+              "reps_note": null,
+              "load_kg": [
+                20,
+                45,
+                62.5
+              ],
+              "load_note": "Bar \u2192 50% \u2192 70% of T1",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Bar, then ramp to working weight."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell bench press",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 62.5 kg",
+              "load_kg": {
+                "heavy": 90,
+                "backoff": 62.5
+              },
+              "load_note": "heavy kg / back-off kg",
+              "rpe": {
+                "heavy": 9,
+                "backoff": 7
+              },
+              "confirmed": true,
+              "notes": "Elbows 45\u201360\u00b0. Keep 90 kg fixed; back-off progresses weekly. Shoulder protocol."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 25,
+              "load_note": "per hand, neutral grip",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Neutral grip reduces shoulder strain."
+            },
+            {
+              "name": "Overhead press (barbell)",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 55,
+              "load_note": "kg total",
+              "rpe": 8,
+              "confirmed": true,
+              "notes": "CAT \u2014 drive the bar explosively. Full lockout at top."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Tuesday",
+          "session": "Lower A",
+          "focus": "Squat + lower back",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Back squat",
+              "tier": "T1",
+              "sets": 5,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 95,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "CAT on the way up. Brace hard before descent."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 87.5,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Hip hinge, neutral spine throughout. Focus on hamstring stretch at bottom."
+            },
+            {
+              "name": "Leg press",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 60.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Volume accumulation."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 15.0,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "confirmed": true,
+              "notes": "Lower back erector strength. Foundational."
+            },
+            {
+              "name": "Calf raise (machine)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 52.5,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "session": "Upper B",
+          "focus": "Pull",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Weighted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 0,
+              "load_note": "Bodyweight only",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Lat pulldown is acceptable substitute if fatigued."
+            },
+            {
+              "name": "Barbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Mid-back thickness."
+            },
+            {
+              "name": "Overhead press (dumbbell, seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 25,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Shoulder stability \u2014 moderate load, not max effort."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Barbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": ""
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": false,
+              "notes": "Shoulder prehab."
+            },
+            {
+              "name": "Dead bug",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Deep core and lower back stability."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Lower B",
+          "focus": "Deadlift + posterior chain",
+          "estimated_duration_minutes": 65,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Conventional deadlift",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 3,
+              "reps_note": null,
+              "load_kg": 110,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Brace hard. Neutral spine throughout. If lower back is accumulated from Tuesday, reduce 15% and treat as technique day."
+            },
+            {
+              "name": "Front squat or goblet squat",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 75,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Technique focus. Quad and upper back complement to Monday squat."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each leg",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Single-leg stability and hip balance."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Good morning (barbell, light)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "kg \u2014 keep it light",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Spinal erector endurance. Low load \u2014 not a strength exercise."
+            },
+            {
+              "name": "Pallof press (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Anti-rotation core stability."
+            },
+            {
+              "name": "Nordic curl or glute-ham raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Hamstring and lower back tie-in."
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "session": "Upper C",
+          "focus": "Volume + weak points",
+          "estimated_duration_minutes": 55,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Cable chest fly",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 10.8,
+              "load_note": "per side",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder-friendly chest isolation. Feel the stretch at bottom."
+            },
+            {
+              "name": "Seated cable row (wide grip)",
+              "tier": "T2",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 50,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Mid-back thickness accumulation."
+            },
+            {
+              "name": "Dumbbell overhead press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 25,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder stability \u2014 moderate load."
+            },
+            {
+              "name": "Chest-supported dumbbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 22.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Lower back removed from the equation entirely."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Incline dumbbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Bicep stretch position."
+            },
+            {
+              "name": "Triceps overhead extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Long head tricep."
+            },
+            {
+              "name": "McGill bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Lower back endurance and motor control. Always done last \u2014 end of week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 4,
+      "is_deload": true,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Upper A",
+          "focus": "Push",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Face pull (cable)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Light \u2014 prehab",
+              "rpe": 5,
+              "confirmed": true,
+              "notes": "Rear delt and external rotation. Shoulder prehab \u2014 do not skip."
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": null,
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": true,
+              "notes": "Activation only. No fatigue."
+            },
+            {
+              "name": "Bench press warm-up",
+              "tier": null,
+              "sets": 3,
+              "reps": 5,
+              "reps_note": null,
+              "load_kg": [
+                20,
+                35,
+                47.5
+              ],
+              "load_note": "Bar \u2192 50% \u2192 70% of T1",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Bar, then ramp to working weight."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell bench press",
+              "tier": "T1",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "2 rounds of: 2 reps \u00d7 67.5 kg \u2192 15 reps \u00d7 45.0 kg",
+              "load_kg": {
+                "heavy": 67.5,
+                "backoff": 45
+              },
+              "load_note": "heavy kg / back-off kg",
+              "rpe": {
+                "heavy": 9,
+                "backoff": 7
+              },
+              "confirmed": true,
+              "notes": "Elbows 45\u201360\u00b0. Keep 90 kg fixed; back-off progresses weekly. Shoulder protocol."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 17.5,
+              "load_note": "per hand, neutral grip",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Neutral grip reduces shoulder strain."
+            },
+            {
+              "name": "Overhead press (barbell)",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 40,
+              "load_note": "kg total",
+              "rpe": 8,
+              "confirmed": true,
+              "notes": "CAT \u2014 drive the bar explosively. Full lockout at top."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Tuesday",
+          "session": "Lower A",
+          "focus": "Squat + lower back",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Back squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 70,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "CAT on the way up. Brace hard before descent."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 70,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Hip hinge, neutral spine throughout. Focus on hamstring stretch at bottom."
+            },
+            {
+              "name": "Leg press",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 37.5,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Volume accumulation."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 7.5,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "confirmed": true,
+              "notes": "Lower back erector strength. Foundational."
+            },
+            {
+              "name": "Calf raise (machine)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 35.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "session": "Upper B",
+          "focus": "Pull",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Weighted pull-up",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 0,
+              "load_note": "Bodyweight only",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Lat pulldown is acceptable substitute if fatigued."
+            },
+            {
+              "name": "Barbell row",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Mid-back thickness."
+            },
+            {
+              "name": "Overhead press (dumbbell, seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 17.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Shoulder stability \u2014 moderate load, not max effort."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Barbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": ""
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": false,
+              "notes": "Shoulder prehab."
+            },
+            {
+              "name": "Dead bug",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Deep core and lower back stability."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Lower B",
+          "focus": "Deadlift + posterior chain",
+          "estimated_duration_minutes": 65,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Conventional deadlift",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 3,
+              "reps_note": null,
+              "load_kg": 82.5,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Brace hard. Neutral spine throughout. If lower back is accumulated from Tuesday, reduce 15% and treat as technique day."
+            },
+            {
+              "name": "Front squat or goblet squat",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 60,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Technique focus. Quad and upper back complement to Monday squat."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each leg",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Single-leg stability and hip balance."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Good morning (barbell, light)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "kg \u2014 keep it light",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Spinal erector endurance. Low load \u2014 not a strength exercise."
+            },
+            {
+              "name": "Pallof press (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Anti-rotation core stability."
+            },
+            {
+              "name": "Nordic curl or glute-ham raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Hamstring and lower back tie-in."
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "session": "Upper C",
+          "focus": "Volume + weak points",
+          "estimated_duration_minutes": 55,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Cable chest fly",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 7.2,
+              "load_note": "per side",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder-friendly chest isolation. Feel the stretch at bottom."
+            },
+            {
+              "name": "Seated cable row (wide grip)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 35,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Mid-back thickness accumulation."
+            },
+            {
+              "name": "Dumbbell overhead press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 17.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder stability \u2014 moderate load."
+            },
+            {
+              "name": "Chest-supported dumbbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 16.25,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Lower back removed from the equation entirely."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Incline dumbbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Bicep stretch position."
+            },
+            {
+              "name": "Triceps overhead extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Long head tricep."
+            },
+            {
+              "name": "McGill bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Lower back endurance and motor control. Always done last \u2014 end of week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 5,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Upper A",
+          "focus": "Push",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Face pull (cable)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Light \u2014 prehab",
+              "rpe": 5,
+              "confirmed": true,
+              "notes": "Rear delt and external rotation. Shoulder prehab \u2014 do not skip."
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": null,
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": true,
+              "notes": "Activation only. No fatigue."
+            },
+            {
+              "name": "Bench press warm-up",
+              "tier": null,
+              "sets": 3,
+              "reps": 5,
+              "reps_note": null,
+              "load_kg": [
+                20,
+                45,
+                62.5
+              ],
+              "load_note": "Bar \u2192 50% \u2192 70% of T1",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Bar, then ramp to working weight."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell bench press",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 65.0 kg",
+              "load_kg": {
+                "heavy": 90,
+                "backoff": 65
+              },
+              "load_note": "heavy kg / back-off kg",
+              "rpe": {
+                "heavy": 9,
+                "backoff": 7
+              },
+              "confirmed": true,
+              "notes": "Elbows 45\u201360\u00b0. Keep 90 kg fixed; back-off progresses weekly. Shoulder protocol."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 27.5,
+              "load_note": "per hand, neutral grip",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Neutral grip reduces shoulder strain."
+            },
+            {
+              "name": "Overhead press (barbell)",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 60,
+              "load_note": "kg total",
+              "rpe": 8,
+              "confirmed": true,
+              "notes": "CAT \u2014 drive the bar explosively. Full lockout at top."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Tuesday",
+          "session": "Lower A",
+          "focus": "Squat + lower back",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Back squat",
+              "tier": "T1",
+              "sets": 5,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 105,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "CAT on the way up. Brace hard before descent."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 92.5,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Hip hinge, neutral spine throughout. Focus on hamstring stretch at bottom."
+            },
+            {
+              "name": "Leg press",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 70.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Volume accumulation."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 20.0,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "confirmed": true,
+              "notes": "Lower back erector strength. Foundational."
+            },
+            {
+              "name": "Calf raise (machine)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 57.5,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "session": "Upper B",
+          "focus": "Pull",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Weighted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 0,
+              "load_note": "Bodyweight only",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Lat pulldown is acceptable substitute if fatigued."
+            },
+            {
+              "name": "Barbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Mid-back thickness."
+            },
+            {
+              "name": "Overhead press (dumbbell, seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 27.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Shoulder stability \u2014 moderate load, not max effort."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Barbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": ""
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": false,
+              "notes": "Shoulder prehab."
+            },
+            {
+              "name": "Dead bug",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Deep core and lower back stability."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Lower B",
+          "focus": "Deadlift + posterior chain",
+          "estimated_duration_minutes": 65,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Conventional deadlift",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 3,
+              "reps_note": null,
+              "load_kg": 120,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Brace hard. Neutral spine throughout. If lower back is accumulated from Tuesday, reduce 15% and treat as technique day."
+            },
+            {
+              "name": "Front squat or goblet squat",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 80,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Technique focus. Quad and upper back complement to Monday squat."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each leg",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Single-leg stability and hip balance."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Good morning (barbell, light)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "kg \u2014 keep it light",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Spinal erector endurance. Low load \u2014 not a strength exercise."
+            },
+            {
+              "name": "Pallof press (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Anti-rotation core stability."
+            },
+            {
+              "name": "Nordic curl or glute-ham raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Hamstring and lower back tie-in."
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "session": "Upper C",
+          "focus": "Volume + weak points",
+          "estimated_duration_minutes": 55,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Cable chest fly",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 12.6,
+              "load_note": "per side",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder-friendly chest isolation. Feel the stretch at bottom."
+            },
+            {
+              "name": "Seated cable row (wide grip)",
+              "tier": "T2",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 55,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Mid-back thickness accumulation."
+            },
+            {
+              "name": "Dumbbell overhead press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 27.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder stability \u2014 moderate load."
+            },
+            {
+              "name": "Chest-supported dumbbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 25,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Lower back removed from the equation entirely."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Incline dumbbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Bicep stretch position."
+            },
+            {
+              "name": "Triceps overhead extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Long head tricep."
+            },
+            {
+              "name": "McGill bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Lower back endurance and motor control. Always done last \u2014 end of week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 6,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Upper A",
+          "focus": "Push",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Face pull (cable)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Light \u2014 prehab",
+              "rpe": 5,
+              "confirmed": true,
+              "notes": "Rear delt and external rotation. Shoulder prehab \u2014 do not skip."
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": null,
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": true,
+              "notes": "Activation only. No fatigue."
+            },
+            {
+              "name": "Bench press warm-up",
+              "tier": null,
+              "sets": 3,
+              "reps": 5,
+              "reps_note": null,
+              "load_kg": [
+                20,
+                45,
+                62.5
+              ],
+              "load_note": "Bar \u2192 50% \u2192 70% of T1",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Bar, then ramp to working weight."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell bench press",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 66.25 kg",
+              "load_kg": {
+                "heavy": 90,
+                "backoff": 66.25
+              },
+              "load_note": "heavy kg / back-off kg",
+              "rpe": {
+                "heavy": 9,
+                "backoff": 7
+              },
+              "confirmed": true,
+              "notes": "Elbows 45\u201360\u00b0. Keep 90 kg fixed; back-off progresses weekly. Shoulder protocol."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 28.75,
+              "load_note": "per hand, neutral grip",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Neutral grip reduces shoulder strain."
+            },
+            {
+              "name": "Overhead press (barbell)",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 62.5,
+              "load_note": "kg total",
+              "rpe": 8,
+              "confirmed": true,
+              "notes": "CAT \u2014 drive the bar explosively. Full lockout at top."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Tuesday",
+          "session": "Lower A",
+          "focus": "Squat + lower back",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Back squat",
+              "tier": "T1",
+              "sets": 5,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 110,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "CAT on the way up. Brace hard before descent."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 95,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Hip hinge, neutral spine throughout. Focus on hamstring stretch at bottom."
+            },
+            {
+              "name": "Leg press",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 75.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Volume accumulation."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 22.5,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "confirmed": true,
+              "notes": "Lower back erector strength. Foundational."
+            },
+            {
+              "name": "Calf raise (machine)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 60.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "session": "Upper B",
+          "focus": "Pull",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Weighted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 2.5,
+              "load_note": "+2.5 kg added",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Lat pulldown is acceptable substitute if fatigued."
+            },
+            {
+              "name": "Barbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Mid-back thickness."
+            },
+            {
+              "name": "Overhead press (dumbbell, seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 28.75,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Shoulder stability \u2014 moderate load, not max effort."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Barbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": ""
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": false,
+              "notes": "Shoulder prehab."
+            },
+            {
+              "name": "Dead bug",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Deep core and lower back stability."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Lower B",
+          "focus": "Deadlift + posterior chain",
+          "estimated_duration_minutes": 65,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Conventional deadlift",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 3,
+              "reps_note": null,
+              "load_kg": 125,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Brace hard. Neutral spine throughout. If lower back is accumulated from Tuesday, reduce 15% and treat as technique day."
+            },
+            {
+              "name": "Front squat or goblet squat",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 82.5,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Technique focus. Quad and upper back complement to Monday squat."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each leg",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Single-leg stability and hip balance."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Good morning (barbell, light)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "kg \u2014 keep it light",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Spinal erector endurance. Low load \u2014 not a strength exercise."
+            },
+            {
+              "name": "Pallof press (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Anti-rotation core stability."
+            },
+            {
+              "name": "Nordic curl or glute-ham raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Hamstring and lower back tie-in."
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "session": "Upper C",
+          "focus": "Volume + weak points",
+          "estimated_duration_minutes": 55,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Cable chest fly",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 13.5,
+              "load_note": "per side",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder-friendly chest isolation. Feel the stretch at bottom."
+            },
+            {
+              "name": "Seated cable row (wide grip)",
+              "tier": "T2",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 57.5,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Mid-back thickness accumulation."
+            },
+            {
+              "name": "Dumbbell overhead press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 28.75,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder stability \u2014 moderate load."
+            },
+            {
+              "name": "Chest-supported dumbbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 26.25,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Lower back removed from the equation entirely."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Incline dumbbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Bicep stretch position."
+            },
+            {
+              "name": "Triceps overhead extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Long head tricep."
+            },
+            {
+              "name": "McGill bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Lower back endurance and motor control. Always done last \u2014 end of week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 7,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Upper A",
+          "focus": "Push",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Face pull (cable)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Light \u2014 prehab",
+              "rpe": 5,
+              "confirmed": true,
+              "notes": "Rear delt and external rotation. Shoulder prehab \u2014 do not skip."
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": null,
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": true,
+              "notes": "Activation only. No fatigue."
+            },
+            {
+              "name": "Bench press warm-up",
+              "tier": null,
+              "sets": 3,
+              "reps": 5,
+              "reps_note": null,
+              "load_kg": [
+                20,
+                45,
+                62.5
+              ],
+              "load_note": "Bar \u2192 50% \u2192 70% of T1",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Bar, then ramp to working weight."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell bench press",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 67.5 kg",
+              "load_kg": {
+                "heavy": 90,
+                "backoff": 67.5
+              },
+              "load_note": "heavy kg / back-off kg",
+              "rpe": {
+                "heavy": 9,
+                "backoff": 7
+              },
+              "confirmed": true,
+              "notes": "Elbows 45\u201360\u00b0. Keep 90 kg fixed; back-off progresses weekly. Shoulder protocol."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "per hand, neutral grip",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Neutral grip reduces shoulder strain."
+            },
+            {
+              "name": "Overhead press (barbell)",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 65,
+              "load_note": "kg total",
+              "rpe": 8,
+              "confirmed": true,
+              "notes": "CAT \u2014 drive the bar explosively. Full lockout at top."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Tuesday",
+          "session": "Lower A",
+          "focus": "Squat + lower back",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Back squat",
+              "tier": "T1",
+              "sets": 5,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 115,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "CAT on the way up. Brace hard before descent."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 97.5,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Hip hinge, neutral spine throughout. Focus on hamstring stretch at bottom."
+            },
+            {
+              "name": "Leg press",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 80.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Volume accumulation."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 25.0,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "confirmed": true,
+              "notes": "Lower back erector strength. Foundational."
+            },
+            {
+              "name": "Calf raise (machine)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 62.5,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "session": "Upper B",
+          "focus": "Pull",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Weighted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 5,
+              "load_note": "+5.0 kg added",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Lat pulldown is acceptable substitute if fatigued."
+            },
+            {
+              "name": "Barbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Mid-back thickness."
+            },
+            {
+              "name": "Overhead press (dumbbell, seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Shoulder stability \u2014 moderate load, not max effort."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Barbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": ""
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": false,
+              "notes": "Shoulder prehab."
+            },
+            {
+              "name": "Dead bug",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Deep core and lower back stability."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Lower B",
+          "focus": "Deadlift + posterior chain",
+          "estimated_duration_minutes": 65,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Conventional deadlift",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 3,
+              "reps_note": null,
+              "load_kg": 130,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Brace hard. Neutral spine throughout. If lower back is accumulated from Tuesday, reduce 15% and treat as technique day."
+            },
+            {
+              "name": "Front squat or goblet squat",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 85,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Technique focus. Quad and upper back complement to Monday squat."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each leg",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Single-leg stability and hip balance."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Good morning (barbell, light)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "kg \u2014 keep it light",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Spinal erector endurance. Low load \u2014 not a strength exercise."
+            },
+            {
+              "name": "Pallof press (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Anti-rotation core stability."
+            },
+            {
+              "name": "Nordic curl or glute-ham raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Hamstring and lower back tie-in."
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "session": "Upper C",
+          "focus": "Volume + weak points",
+          "estimated_duration_minutes": 55,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Cable chest fly",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 14.4,
+              "load_note": "per side",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder-friendly chest isolation. Feel the stretch at bottom."
+            },
+            {
+              "name": "Seated cable row (wide grip)",
+              "tier": "T2",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 60,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Mid-back thickness accumulation."
+            },
+            {
+              "name": "Dumbbell overhead press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder stability \u2014 moderate load."
+            },
+            {
+              "name": "Chest-supported dumbbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 27.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Lower back removed from the equation entirely."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Incline dumbbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Bicep stretch position."
+            },
+            {
+              "name": "Triceps overhead extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Long head tricep."
+            },
+            {
+              "name": "McGill bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Lower back endurance and motor control. Always done last \u2014 end of week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 8,
+      "is_deload": true,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Upper A",
+          "focus": "Push",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Face pull (cable)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Light \u2014 prehab",
+              "rpe": 5,
+              "confirmed": true,
+              "notes": "Rear delt and external rotation. Shoulder prehab \u2014 do not skip."
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": null,
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": true,
+              "notes": "Activation only. No fatigue."
+            },
+            {
+              "name": "Bench press warm-up",
+              "tier": null,
+              "sets": 3,
+              "reps": 5,
+              "reps_note": null,
+              "load_kg": [
+                20,
+                35,
+                47.5
+              ],
+              "load_note": "Bar \u2192 50% \u2192 70% of T1",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Bar, then ramp to working weight."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell bench press",
+              "tier": "T1",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "2 rounds of: 2 reps \u00d7 67.5 kg \u2192 15 reps \u00d7 45.0 kg",
+              "load_kg": {
+                "heavy": 67.5,
+                "backoff": 45
+              },
+              "load_note": "heavy kg / back-off kg",
+              "rpe": {
+                "heavy": 9,
+                "backoff": 7
+              },
+              "confirmed": true,
+              "notes": "Elbows 45\u201360\u00b0. Keep 90 kg fixed; back-off progresses weekly. Shoulder protocol."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 17.5,
+              "load_note": "per hand, neutral grip",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Neutral grip reduces shoulder strain."
+            },
+            {
+              "name": "Overhead press (barbell)",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 40,
+              "load_note": "kg total",
+              "rpe": 8,
+              "confirmed": true,
+              "notes": "CAT \u2014 drive the bar explosively. Full lockout at top."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Tuesday",
+          "session": "Lower A",
+          "focus": "Squat + lower back",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Back squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 70,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "CAT on the way up. Brace hard before descent."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 70,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Hip hinge, neutral spine throughout. Focus on hamstring stretch at bottom."
+            },
+            {
+              "name": "Leg press",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 37.5,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Volume accumulation."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 7.5,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "confirmed": true,
+              "notes": "Lower back erector strength. Foundational."
+            },
+            {
+              "name": "Calf raise (machine)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 35.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "session": "Upper B",
+          "focus": "Pull",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Weighted pull-up",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 0,
+              "load_note": "Bodyweight only",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Lat pulldown is acceptable substitute if fatigued."
+            },
+            {
+              "name": "Barbell row",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Mid-back thickness."
+            },
+            {
+              "name": "Overhead press (dumbbell, seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 17.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Shoulder stability \u2014 moderate load, not max effort."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Barbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": ""
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": false,
+              "notes": "Shoulder prehab."
+            },
+            {
+              "name": "Dead bug",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Deep core and lower back stability."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Lower B",
+          "focus": "Deadlift + posterior chain",
+          "estimated_duration_minutes": 65,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Conventional deadlift",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 3,
+              "reps_note": null,
+              "load_kg": 82.5,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Brace hard. Neutral spine throughout. If lower back is accumulated from Tuesday, reduce 15% and treat as technique day."
+            },
+            {
+              "name": "Front squat or goblet squat",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 60,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Technique focus. Quad and upper back complement to Monday squat."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each leg",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Single-leg stability and hip balance."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Good morning (barbell, light)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "kg \u2014 keep it light",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Spinal erector endurance. Low load \u2014 not a strength exercise."
+            },
+            {
+              "name": "Pallof press (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Anti-rotation core stability."
+            },
+            {
+              "name": "Nordic curl or glute-ham raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Hamstring and lower back tie-in."
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "session": "Upper C",
+          "focus": "Volume + weak points",
+          "estimated_duration_minutes": 55,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Cable chest fly",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 7.2,
+              "load_note": "per side",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder-friendly chest isolation. Feel the stretch at bottom."
+            },
+            {
+              "name": "Seated cable row (wide grip)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 35,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Mid-back thickness accumulation."
+            },
+            {
+              "name": "Dumbbell overhead press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 17.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder stability \u2014 moderate load."
+            },
+            {
+              "name": "Chest-supported dumbbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 16.25,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Lower back removed from the equation entirely."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Incline dumbbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Bicep stretch position."
+            },
+            {
+              "name": "Triceps overhead extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Long head tricep."
+            },
+            {
+              "name": "McGill bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Lower back endurance and motor control. Always done last \u2014 end of week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 9,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Upper A",
+          "focus": "Push",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Face pull (cable)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Light \u2014 prehab",
+              "rpe": 5,
+              "confirmed": true,
+              "notes": "Rear delt and external rotation. Shoulder prehab \u2014 do not skip."
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": null,
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": true,
+              "notes": "Activation only. No fatigue."
+            },
+            {
+              "name": "Bench press warm-up",
+              "tier": null,
+              "sets": 3,
+              "reps": 5,
+              "reps_note": null,
+              "load_kg": [
+                20,
+                45,
+                62.5
+              ],
+              "load_note": "Bar \u2192 50% \u2192 70% of T1",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Bar, then ramp to working weight."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell bench press",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 70.0 kg",
+              "load_kg": {
+                "heavy": 90,
+                "backoff": 70
+              },
+              "load_note": "heavy kg / back-off kg",
+              "rpe": {
+                "heavy": 9,
+                "backoff": 7
+              },
+              "confirmed": true,
+              "notes": "Elbows 45\u201360\u00b0. Keep 90 kg fixed; back-off progresses weekly. Shoulder protocol."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 32.5,
+              "load_note": "per hand, neutral grip",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Neutral grip reduces shoulder strain."
+            },
+            {
+              "name": "Overhead press (barbell)",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 70,
+              "load_note": "kg total",
+              "rpe": 8,
+              "confirmed": true,
+              "notes": "CAT \u2014 drive the bar explosively. Full lockout at top."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Tuesday",
+          "session": "Lower A",
+          "focus": "Squat + lower back",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Back squat",
+              "tier": "T1",
+              "sets": 5,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 125,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "CAT on the way up. Brace hard before descent."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 102.5,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Hip hinge, neutral spine throughout. Focus on hamstring stretch at bottom."
+            },
+            {
+              "name": "Leg press",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 90.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Volume accumulation."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 30.0,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "confirmed": true,
+              "notes": "Lower back erector strength. Foundational."
+            },
+            {
+              "name": "Calf raise (machine)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 67.5,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "session": "Upper B",
+          "focus": "Pull",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Weighted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 10,
+              "load_note": "+10.0 kg added",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Lat pulldown is acceptable substitute if fatigued."
+            },
+            {
+              "name": "Barbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Mid-back thickness."
+            },
+            {
+              "name": "Overhead press (dumbbell, seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 32.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Shoulder stability \u2014 moderate load, not max effort."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Barbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": ""
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": false,
+              "notes": "Shoulder prehab."
+            },
+            {
+              "name": "Dead bug",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Deep core and lower back stability."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Lower B",
+          "focus": "Deadlift + posterior chain",
+          "estimated_duration_minutes": 65,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Conventional deadlift",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 3,
+              "reps_note": null,
+              "load_kg": 140,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Brace hard. Neutral spine throughout. If lower back is accumulated from Tuesday, reduce 15% and treat as technique day."
+            },
+            {
+              "name": "Front squat or goblet squat",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 90,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Technique focus. Quad and upper back complement to Monday squat."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each leg",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Single-leg stability and hip balance."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Good morning (barbell, light)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "kg \u2014 keep it light",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Spinal erector endurance. Low load \u2014 not a strength exercise."
+            },
+            {
+              "name": "Pallof press (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Anti-rotation core stability."
+            },
+            {
+              "name": "Nordic curl or glute-ham raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Hamstring and lower back tie-in."
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "session": "Upper C",
+          "focus": "Volume + weak points",
+          "estimated_duration_minutes": 55,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Cable chest fly",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 16.2,
+              "load_note": "per side",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder-friendly chest isolation. Feel the stretch at bottom."
+            },
+            {
+              "name": "Seated cable row (wide grip)",
+              "tier": "T2",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 65,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Mid-back thickness accumulation."
+            },
+            {
+              "name": "Dumbbell overhead press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 32.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder stability \u2014 moderate load."
+            },
+            {
+              "name": "Chest-supported dumbbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Lower back removed from the equation entirely."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Incline dumbbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Bicep stretch position."
+            },
+            {
+              "name": "Triceps overhead extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Long head tricep."
+            },
+            {
+              "name": "McGill bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Lower back endurance and motor control. Always done last \u2014 end of week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 10,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Upper A",
+          "focus": "Push",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Face pull (cable)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Light \u2014 prehab",
+              "rpe": 5,
+              "confirmed": true,
+              "notes": "Rear delt and external rotation. Shoulder prehab \u2014 do not skip."
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": null,
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": true,
+              "notes": "Activation only. No fatigue."
+            },
+            {
+              "name": "Bench press warm-up",
+              "tier": null,
+              "sets": 3,
+              "reps": 5,
+              "reps_note": null,
+              "load_kg": [
+                20,
+                45,
+                62.5
+              ],
+              "load_note": "Bar \u2192 50% \u2192 70% of T1",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Bar, then ramp to working weight."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell bench press",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 71.25 kg",
+              "load_kg": {
+                "heavy": 90,
+                "backoff": 71.25
+              },
+              "load_note": "heavy kg / back-off kg",
+              "rpe": {
+                "heavy": 9,
+                "backoff": 7
+              },
+              "confirmed": true,
+              "notes": "Elbows 45\u201360\u00b0. Keep 90 kg fixed; back-off progresses weekly. Shoulder protocol."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 33.75,
+              "load_note": "per hand, neutral grip",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Neutral grip reduces shoulder strain."
+            },
+            {
+              "name": "Overhead press (barbell)",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 72.5,
+              "load_note": "kg total",
+              "rpe": 8,
+              "confirmed": true,
+              "notes": "CAT \u2014 drive the bar explosively. Full lockout at top."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Tuesday",
+          "session": "Lower A",
+          "focus": "Squat + lower back",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Back squat",
+              "tier": "T1",
+              "sets": 5,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 130,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "CAT on the way up. Brace hard before descent."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 105,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Hip hinge, neutral spine throughout. Focus on hamstring stretch at bottom."
+            },
+            {
+              "name": "Leg press",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 95.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Volume accumulation."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 32.5,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "confirmed": true,
+              "notes": "Lower back erector strength. Foundational."
+            },
+            {
+              "name": "Calf raise (machine)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 70.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "session": "Upper B",
+          "focus": "Pull",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Weighted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 12.5,
+              "load_note": "+12.5 kg added",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Lat pulldown is acceptable substitute if fatigued."
+            },
+            {
+              "name": "Barbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Mid-back thickness."
+            },
+            {
+              "name": "Overhead press (dumbbell, seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 33.75,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Shoulder stability \u2014 moderate load, not max effort."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Barbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": ""
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": false,
+              "notes": "Shoulder prehab."
+            },
+            {
+              "name": "Dead bug",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Deep core and lower back stability."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Lower B",
+          "focus": "Deadlift + posterior chain",
+          "estimated_duration_minutes": 65,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Conventional deadlift",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 3,
+              "reps_note": null,
+              "load_kg": 145,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Brace hard. Neutral spine throughout. If lower back is accumulated from Tuesday, reduce 15% and treat as technique day."
+            },
+            {
+              "name": "Front squat or goblet squat",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 92.5,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Technique focus. Quad and upper back complement to Monday squat."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each leg",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Single-leg stability and hip balance."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Good morning (barbell, light)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "kg \u2014 keep it light",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Spinal erector endurance. Low load \u2014 not a strength exercise."
+            },
+            {
+              "name": "Pallof press (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Anti-rotation core stability."
+            },
+            {
+              "name": "Nordic curl or glute-ham raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Hamstring and lower back tie-in."
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "session": "Upper C",
+          "focus": "Volume + weak points",
+          "estimated_duration_minutes": 55,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Cable chest fly",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 17.1,
+              "load_note": "per side",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder-friendly chest isolation. Feel the stretch at bottom."
+            },
+            {
+              "name": "Seated cable row (wide grip)",
+              "tier": "T2",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 67.5,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Mid-back thickness accumulation."
+            },
+            {
+              "name": "Dumbbell overhead press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 33.75,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder stability \u2014 moderate load."
+            },
+            {
+              "name": "Chest-supported dumbbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 31.25,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Lower back removed from the equation entirely."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Incline dumbbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Bicep stretch position."
+            },
+            {
+              "name": "Triceps overhead extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Long head tricep."
+            },
+            {
+              "name": "McGill bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Lower back endurance and motor control. Always done last \u2014 end of week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 11,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Upper A",
+          "focus": "Push",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Face pull (cable)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Light \u2014 prehab",
+              "rpe": 5,
+              "confirmed": true,
+              "notes": "Rear delt and external rotation. Shoulder prehab \u2014 do not skip."
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": null,
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": true,
+              "notes": "Activation only. No fatigue."
+            },
+            {
+              "name": "Bench press warm-up",
+              "tier": null,
+              "sets": 3,
+              "reps": 5,
+              "reps_note": null,
+              "load_kg": [
+                20,
+                45,
+                62.5
+              ],
+              "load_note": "Bar \u2192 50% \u2192 70% of T1",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Bar, then ramp to working weight."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell bench press",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 72.5 kg",
+              "load_kg": {
+                "heavy": 90,
+                "backoff": 72.5
+              },
+              "load_note": "heavy kg / back-off kg",
+              "rpe": {
+                "heavy": 9,
+                "backoff": 7
+              },
+              "confirmed": true,
+              "notes": "Elbows 45\u201360\u00b0. Keep 90 kg fixed; back-off progresses weekly. Shoulder protocol."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 35,
+              "load_note": "per hand, neutral grip",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Neutral grip reduces shoulder strain."
+            },
+            {
+              "name": "Overhead press (barbell)",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 75,
+              "load_note": "kg total",
+              "rpe": 8,
+              "confirmed": true,
+              "notes": "CAT \u2014 drive the bar explosively. Full lockout at top."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Tuesday",
+          "session": "Lower A",
+          "focus": "Squat + lower back",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Back squat",
+              "tier": "T1",
+              "sets": 5,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 135,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "CAT on the way up. Brace hard before descent."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 107.5,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Hip hinge, neutral spine throughout. Focus on hamstring stretch at bottom."
+            },
+            {
+              "name": "Leg press",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 100.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Volume accumulation."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 35.0,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "confirmed": true,
+              "notes": "Lower back erector strength. Foundational."
+            },
+            {
+              "name": "Calf raise (machine)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 72.5,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "session": "Upper B",
+          "focus": "Pull",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Weighted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 15,
+              "load_note": "+15.0 kg added",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Lat pulldown is acceptable substitute if fatigued."
+            },
+            {
+              "name": "Barbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Mid-back thickness."
+            },
+            {
+              "name": "Overhead press (dumbbell, seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 35,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Shoulder stability \u2014 moderate load, not max effort."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Barbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": ""
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": false,
+              "notes": "Shoulder prehab."
+            },
+            {
+              "name": "Dead bug",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Deep core and lower back stability."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Lower B",
+          "focus": "Deadlift + posterior chain",
+          "estimated_duration_minutes": 65,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Conventional deadlift",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 3,
+              "reps_note": null,
+              "load_kg": 150,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Brace hard. Neutral spine throughout. If lower back is accumulated from Tuesday, reduce 15% and treat as technique day."
+            },
+            {
+              "name": "Front squat or goblet squat",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 95,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Technique focus. Quad and upper back complement to Monday squat."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each leg",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Single-leg stability and hip balance."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Good morning (barbell, light)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "kg \u2014 keep it light",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Spinal erector endurance. Low load \u2014 not a strength exercise."
+            },
+            {
+              "name": "Pallof press (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Anti-rotation core stability."
+            },
+            {
+              "name": "Nordic curl or glute-ham raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Hamstring and lower back tie-in."
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "session": "Upper C",
+          "focus": "Volume + weak points",
+          "estimated_duration_minutes": 55,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Cable chest fly",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 18,
+              "load_note": "per side",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder-friendly chest isolation. Feel the stretch at bottom."
+            },
+            {
+              "name": "Seated cable row (wide grip)",
+              "tier": "T2",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 70,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Mid-back thickness accumulation."
+            },
+            {
+              "name": "Dumbbell overhead press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 35,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder stability \u2014 moderate load."
+            },
+            {
+              "name": "Chest-supported dumbbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 32.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Lower back removed from the equation entirely."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Incline dumbbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Bicep stretch position."
+            },
+            {
+              "name": "Triceps overhead extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Long head tricep."
+            },
+            {
+              "name": "McGill bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Lower back endurance and motor control. Always done last \u2014 end of week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 12,
+      "is_deload": true,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Upper A",
+          "focus": "Push",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Face pull (cable)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Light \u2014 prehab",
+              "rpe": 5,
+              "confirmed": true,
+              "notes": "Rear delt and external rotation. Shoulder prehab \u2014 do not skip."
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": null,
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": true,
+              "notes": "Activation only. No fatigue."
+            },
+            {
+              "name": "Bench press warm-up",
+              "tier": null,
+              "sets": 3,
+              "reps": 5,
+              "reps_note": null,
+              "load_kg": [
+                20,
+                35,
+                47.5
+              ],
+              "load_note": "Bar \u2192 50% \u2192 70% of T1",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Bar, then ramp to working weight."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell bench press",
+              "tier": "T1",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "2 rounds of: 2 reps \u00d7 67.5 kg \u2192 15 reps \u00d7 45.0 kg",
+              "load_kg": {
+                "heavy": 67.5,
+                "backoff": 45
+              },
+              "load_note": "heavy kg / back-off kg",
+              "rpe": {
+                "heavy": 9,
+                "backoff": 7
+              },
+              "confirmed": true,
+              "notes": "Elbows 45\u201360\u00b0. Keep 90 kg fixed; back-off progresses weekly. Shoulder protocol."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 17.5,
+              "load_note": "per hand, neutral grip",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Neutral grip reduces shoulder strain."
+            },
+            {
+              "name": "Overhead press (barbell)",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 40,
+              "load_note": "kg total",
+              "rpe": 8,
+              "confirmed": true,
+              "notes": "CAT \u2014 drive the bar explosively. Full lockout at top."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Tuesday",
+          "session": "Lower A",
+          "focus": "Squat + lower back",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Back squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 70,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "CAT on the way up. Brace hard before descent."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 70,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Hip hinge, neutral spine throughout. Focus on hamstring stretch at bottom."
+            },
+            {
+              "name": "Leg press",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 37.5,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Volume accumulation."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 7.5,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "confirmed": true,
+              "notes": "Lower back erector strength. Foundational."
+            },
+            {
+              "name": "Calf raise (machine)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 35.0,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "session": "Upper B",
+          "focus": "Pull",
+          "estimated_duration_minutes": 60,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Weighted pull-up",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 4,
+              "reps_note": null,
+              "load_kg": 0,
+              "load_note": "Bodyweight only",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Lat pulldown is acceptable substitute if fatigued."
+            },
+            {
+              "name": "Barbell row",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Mid-back thickness."
+            },
+            {
+              "name": "Overhead press (dumbbell, seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 17.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Shoulder stability \u2014 moderate load, not max effort."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Barbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": ""
+            },
+            {
+              "name": "Band pull-apart",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Band only",
+              "rpe": 4,
+              "confirmed": false,
+              "notes": "Shoulder prehab."
+            },
+            {
+              "name": "Dead bug",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Deep core and lower back stability."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Lower B",
+          "focus": "Deadlift + posterior chain",
+          "estimated_duration_minutes": 65,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Conventional deadlift",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 3,
+              "reps_note": null,
+              "load_kg": 82.5,
+              "load_note": "kg",
+              "rpe": 8,
+              "confirmed": false,
+              "notes": "Brace hard. Neutral spine throughout. If lower back is accumulated from Tuesday, reduce 15% and treat as technique day."
+            },
+            {
+              "name": "Front squat or goblet squat",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": 60,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Technique focus. Quad and upper back complement to Monday squat."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each leg",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": false,
+              "notes": "Single-leg stability and hip balance."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Good morning (barbell, light)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 30,
+              "load_note": "kg \u2014 keep it light",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Spinal erector endurance. Low load \u2014 not a strength exercise."
+            },
+            {
+              "name": "Pallof press (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "confirmed": false,
+              "notes": "Anti-rotation core stability."
+            },
+            {
+              "name": "Nordic curl or glute-ham raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": false,
+              "notes": "Hamstring and lower back tie-in."
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "session": "Upper C",
+          "focus": "Volume + weak points",
+          "estimated_duration_minutes": 55,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Cable chest fly",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": 7.2,
+              "load_note": "per side",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder-friendly chest isolation. Feel the stretch at bottom."
+            },
+            {
+              "name": "Seated cable row (wide grip)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": 35,
+              "load_note": "kg",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Mid-back thickness accumulation."
+            },
+            {
+              "name": "Dumbbell overhead press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 17.5,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Shoulder stability \u2014 moderate load."
+            },
+            {
+              "name": "Chest-supported dumbbell row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": 16.25,
+              "load_note": "per hand",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Lower back removed from the equation entirely."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Incline dumbbell curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Bicep stretch position."
+            },
+            {
+              "name": "Triceps overhead extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "confirmed": true,
+              "notes": "Long head tricep."
+            },
+            {
+              "name": "McGill bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": "each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "confirmed": true,
+              "notes": "Lower back endurance and motor control. Always done last \u2014 end of week."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

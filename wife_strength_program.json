@@ -1,0 +1,5386 @@
+{
+  "metadata": {
+    "athlete": {
+      "bodyweight_kg": 44,
+      "training_maxes": null,
+      "notes": "RPE-based loading throughout \u2014 no confirmed weights at program start. Progress by feel: increase load when RPE drops to 6 or below across all sets. No injuries or limitations."
+    },
+    "program": {
+      "name": "Glute / Push / Pull 5-Day Hypertrophy Program",
+      "weeks_total": 12,
+      "deload_weeks": [
+        4,
+        8,
+        12
+      ],
+      "split": "Mon: Glute A | Tue: Push | Wed: Glute B | Thu: Pull | Fri: Glute C",
+      "priority": "Glutes (3x/week), lower back (every glute day), arms (2x/week)"
+    }
+  },
+  "weeks": [
+    {
+      "week_number": 1,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Glute A",
+          "focus": "Hip thrust volume focus",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading. Drive hips fully at top."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "8\u201310",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Primary glute driver. Full hip extension at top, hard squeeze. Feet flat, chin tucked."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "lower_back",
+              "notes": "Hip hinge, neutral spine. Feel hamstring stretch at bottom. Do not round lower back."
+            },
+            {
+              "name": "Sumo squat (barbell or dumbbell)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Wide stance emphasises inner glute. Knees track over toes throughout."
+            },
+            {
+              "name": "Cable kickback",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute isolation. No swinging \u2014 squeeze hard at top of movement."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Lower back erector strength. Add plate when bodyweight feels like RPE 5 or below."
+            },
+            {
+              "name": "Plank",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "40 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Anterior core stability."
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "session": "Push",
+          "focus": "Push + arms",
+          "estimated_duration_minutes": 50,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Dumbbell shoulder press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10\u201312",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Controlled descent. Primary push movement of the session."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Chest and front delt. Controlled at bottom \u2014 full stretch."
+            },
+            {
+              "name": "Cable lateral raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "arms",
+              "notes": "Side delt \u2014 builds shoulder width. Strict form, light weight, no swinging."
+            },
+            {
+              "name": "Triceps pushdown (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "12\u201315",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Rope or bar attachment. Full extension at bottom of each rep."
+            },
+            {
+              "name": "Overhead triceps extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Long head tricep \u2014 cable or dumbbell. Elbows stay close to head."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Wednesday",
+          "session": "Glute B",
+          "focus": "Squat patterns + posterior chain",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Banded clamshell",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Light band",
+              "rpe": null,
+              "tag": null,
+              "notes": "Glute med activation before squatting."
+            }
+          ],
+          "main": [
+            {
+              "name": "Goblet squat or barbell back squat",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Start with goblet squat, progress to barbell when movement is confident. Depth drives glute activation."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each leg",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Rear foot elevated. Best single-leg glute builder. Use dumbbells for load."
+            },
+            {
+              "name": "Good morning (light barbell)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Spinal erector endurance \u2014 not a max-load movement. Keep weight conservative always."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 outer hip shape. Slow and controlled, full range."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": "lower_back",
+              "notes": "Lower back motor control and stability."
+            },
+            {
+              "name": "Single-leg hip thrust (bodyweight)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute activation finisher. Balance and isolation \u2014 no load needed."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Pull",
+          "focus": "Pull + arms",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Dead hang (bar)",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "20\u201330 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Shoulder and lat activation before pull-ups."
+            }
+          ],
+          "main": [
+            {
+              "name": "Band-assisted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "arms",
+              "notes": "Use band that allows 6\u20138 clean reps at RPE 8. Progress by moving to lighter band when current band feels RPE 6 or below."
+            },
+            {
+              "name": "Seated cable row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Mid-back thickness. Squeeze shoulder blades together at end of each rep."
+            },
+            {
+              "name": "Lat pulldown (wide grip)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Back width. Pull bar to upper chest \u2014 don't lean back excessively."
+            },
+            {
+              "name": "Dumbbell bicep curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Alternating or simultaneous. Full range of motion \u2014 full extension at bottom."
+            },
+            {
+              "name": "Hammer curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Neutral grip throughout. Builds brachialis \u2014 arm thickness."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Friday",
+          "session": "Glute C",
+          "focus": "Hip hinge strength + glute volume",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8\u20139",
+              "rpe": 9,
+              "tag": "glutes",
+              "notes": "Heavier than Monday, fewer reps. Strength-focused variation. Full hip extension, hard squeeze."
+            },
+            {
+              "name": "Conventional deadlift or trap bar deadlift",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "lower_back",
+              "notes": "Primary posterior chain lift of the week. Trap bar is fine if available. Neutral spine."
+            },
+            {
+              "name": "Cable pull-through",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hip hinge with cable \u2014 glute-focused. Drive hips fully forward at top."
+            },
+            {
+              "name": "Leg curl (machine)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hamstring and glute tie-in. Slow eccentric \u2014 3 seconds down."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 second hit this week. Finisher \u2014 controlled pump."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "End of week lower back finisher. Same as Monday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 2,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Glute A",
+          "focus": "Hip thrust volume focus",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading. Drive hips fully at top."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "8\u201310",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Primary glute driver. Full hip extension at top, hard squeeze. Feet flat, chin tucked."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "lower_back",
+              "notes": "Hip hinge, neutral spine. Feel hamstring stretch at bottom. Do not round lower back."
+            },
+            {
+              "name": "Sumo squat (barbell or dumbbell)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Wide stance emphasises inner glute. Knees track over toes throughout."
+            },
+            {
+              "name": "Cable kickback",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute isolation. No swinging \u2014 squeeze hard at top of movement."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Lower back erector strength. Add plate when bodyweight feels like RPE 5 or below."
+            },
+            {
+              "name": "Plank",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "40 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Anterior core stability."
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "session": "Push",
+          "focus": "Push + arms",
+          "estimated_duration_minutes": 50,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Dumbbell shoulder press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10\u201312",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Controlled descent. Primary push movement of the session."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Chest and front delt. Controlled at bottom \u2014 full stretch."
+            },
+            {
+              "name": "Cable lateral raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "arms",
+              "notes": "Side delt \u2014 builds shoulder width. Strict form, light weight, no swinging."
+            },
+            {
+              "name": "Triceps pushdown (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "12\u201315",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Rope or bar attachment. Full extension at bottom of each rep."
+            },
+            {
+              "name": "Overhead triceps extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Long head tricep \u2014 cable or dumbbell. Elbows stay close to head."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Wednesday",
+          "session": "Glute B",
+          "focus": "Squat patterns + posterior chain",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Banded clamshell",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Light band",
+              "rpe": null,
+              "tag": null,
+              "notes": "Glute med activation before squatting."
+            }
+          ],
+          "main": [
+            {
+              "name": "Goblet squat or barbell back squat",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Start with goblet squat, progress to barbell when movement is confident. Depth drives glute activation."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each leg",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Rear foot elevated. Best single-leg glute builder. Use dumbbells for load."
+            },
+            {
+              "name": "Good morning (light barbell)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Spinal erector endurance \u2014 not a max-load movement. Keep weight conservative always."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 outer hip shape. Slow and controlled, full range."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": "lower_back",
+              "notes": "Lower back motor control and stability."
+            },
+            {
+              "name": "Single-leg hip thrust (bodyweight)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute activation finisher. Balance and isolation \u2014 no load needed."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Pull",
+          "focus": "Pull + arms",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Dead hang (bar)",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "20\u201330 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Shoulder and lat activation before pull-ups."
+            }
+          ],
+          "main": [
+            {
+              "name": "Band-assisted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "arms",
+              "notes": "Use band that allows 6\u20138 clean reps at RPE 8. Progress by moving to lighter band when current band feels RPE 6 or below."
+            },
+            {
+              "name": "Seated cable row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Mid-back thickness. Squeeze shoulder blades together at end of each rep."
+            },
+            {
+              "name": "Lat pulldown (wide grip)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Back width. Pull bar to upper chest \u2014 don't lean back excessively."
+            },
+            {
+              "name": "Dumbbell bicep curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Alternating or simultaneous. Full range of motion \u2014 full extension at bottom."
+            },
+            {
+              "name": "Hammer curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Neutral grip throughout. Builds brachialis \u2014 arm thickness."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Friday",
+          "session": "Glute C",
+          "focus": "Hip hinge strength + glute volume",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8\u20139",
+              "rpe": 9,
+              "tag": "glutes",
+              "notes": "Heavier than Monday, fewer reps. Strength-focused variation. Full hip extension, hard squeeze."
+            },
+            {
+              "name": "Conventional deadlift or trap bar deadlift",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "lower_back",
+              "notes": "Primary posterior chain lift of the week. Trap bar is fine if available. Neutral spine."
+            },
+            {
+              "name": "Cable pull-through",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hip hinge with cable \u2014 glute-focused. Drive hips fully forward at top."
+            },
+            {
+              "name": "Leg curl (machine)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hamstring and glute tie-in. Slow eccentric \u2014 3 seconds down."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 second hit this week. Finisher \u2014 controlled pump."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "End of week lower back finisher. Same as Monday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 3,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Glute A",
+          "focus": "Hip thrust volume focus",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading. Drive hips fully at top."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "8\u201310",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Primary glute driver. Full hip extension at top, hard squeeze. Feet flat, chin tucked."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "lower_back",
+              "notes": "Hip hinge, neutral spine. Feel hamstring stretch at bottom. Do not round lower back."
+            },
+            {
+              "name": "Sumo squat (barbell or dumbbell)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Wide stance emphasises inner glute. Knees track over toes throughout."
+            },
+            {
+              "name": "Cable kickback",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute isolation. No swinging \u2014 squeeze hard at top of movement."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Lower back erector strength. Add plate when bodyweight feels like RPE 5 or below."
+            },
+            {
+              "name": "Plank",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "40 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Anterior core stability."
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "session": "Push",
+          "focus": "Push + arms",
+          "estimated_duration_minutes": 50,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Dumbbell shoulder press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10\u201312",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Controlled descent. Primary push movement of the session."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Chest and front delt. Controlled at bottom \u2014 full stretch."
+            },
+            {
+              "name": "Cable lateral raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "arms",
+              "notes": "Side delt \u2014 builds shoulder width. Strict form, light weight, no swinging."
+            },
+            {
+              "name": "Triceps pushdown (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "12\u201315",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Rope or bar attachment. Full extension at bottom of each rep."
+            },
+            {
+              "name": "Overhead triceps extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Long head tricep \u2014 cable or dumbbell. Elbows stay close to head."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Wednesday",
+          "session": "Glute B",
+          "focus": "Squat patterns + posterior chain",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Banded clamshell",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Light band",
+              "rpe": null,
+              "tag": null,
+              "notes": "Glute med activation before squatting."
+            }
+          ],
+          "main": [
+            {
+              "name": "Goblet squat or barbell back squat",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Start with goblet squat, progress to barbell when movement is confident. Depth drives glute activation."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each leg",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Rear foot elevated. Best single-leg glute builder. Use dumbbells for load."
+            },
+            {
+              "name": "Good morning (light barbell)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Spinal erector endurance \u2014 not a max-load movement. Keep weight conservative always."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 outer hip shape. Slow and controlled, full range."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": "lower_back",
+              "notes": "Lower back motor control and stability."
+            },
+            {
+              "name": "Single-leg hip thrust (bodyweight)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute activation finisher. Balance and isolation \u2014 no load needed."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Pull",
+          "focus": "Pull + arms",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Dead hang (bar)",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "20\u201330 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Shoulder and lat activation before pull-ups."
+            }
+          ],
+          "main": [
+            {
+              "name": "Band-assisted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "arms",
+              "notes": "Use band that allows 6\u20138 clean reps at RPE 8. Progress by moving to lighter band when current band feels RPE 6 or below."
+            },
+            {
+              "name": "Seated cable row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Mid-back thickness. Squeeze shoulder blades together at end of each rep."
+            },
+            {
+              "name": "Lat pulldown (wide grip)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Back width. Pull bar to upper chest \u2014 don't lean back excessively."
+            },
+            {
+              "name": "Dumbbell bicep curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Alternating or simultaneous. Full range of motion \u2014 full extension at bottom."
+            },
+            {
+              "name": "Hammer curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Neutral grip throughout. Builds brachialis \u2014 arm thickness."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Friday",
+          "session": "Glute C",
+          "focus": "Hip hinge strength + glute volume",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8\u20139",
+              "rpe": 9,
+              "tag": "glutes",
+              "notes": "Heavier than Monday, fewer reps. Strength-focused variation. Full hip extension, hard squeeze."
+            },
+            {
+              "name": "Conventional deadlift or trap bar deadlift",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "lower_back",
+              "notes": "Primary posterior chain lift of the week. Trap bar is fine if available. Neutral spine."
+            },
+            {
+              "name": "Cable pull-through",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hip hinge with cable \u2014 glute-focused. Drive hips fully forward at top."
+            },
+            {
+              "name": "Leg curl (machine)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hamstring and glute tie-in. Slow eccentric \u2014 3 seconds down."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 second hit this week. Finisher \u2014 controlled pump."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "End of week lower back finisher. Same as Monday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 4,
+      "is_deload": true,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Glute A",
+          "focus": "Hip thrust volume focus",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading. Drive hips fully at top."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Primary glute driver. Full hip extension at top, hard squeeze. Feet flat, chin tucked."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "lower_back",
+              "notes": "Hip hinge, neutral spine. Feel hamstring stretch at bottom. Do not round lower back."
+            },
+            {
+              "name": "Sumo squat (barbell or dumbbell)",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Wide stance emphasises inner glute. Knees track over toes throughout."
+            },
+            {
+              "name": "Cable kickback",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute isolation. No swinging \u2014 squeeze hard at top of movement."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Lower back erector strength. Add plate when bodyweight feels like RPE 5 or below."
+            },
+            {
+              "name": "Plank",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "40 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Anterior core stability."
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "session": "Push",
+          "focus": "Push + arms",
+          "estimated_duration_minutes": 50,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Dumbbell shoulder press (seated)",
+              "tier": "T2",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "10\u201312",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Controlled descent. Primary push movement of the session."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Chest and front delt. Controlled at bottom \u2014 full stretch."
+            },
+            {
+              "name": "Cable lateral raise",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "arms",
+              "notes": "Side delt \u2014 builds shoulder width. Strict form, light weight, no swinging."
+            },
+            {
+              "name": "Triceps pushdown (cable)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "12\u201315",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Rope or bar attachment. Full extension at bottom of each rep."
+            },
+            {
+              "name": "Overhead triceps extension",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Long head tricep \u2014 cable or dumbbell. Elbows stay close to head."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Wednesday",
+          "session": "Glute B",
+          "focus": "Squat patterns + posterior chain",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Banded clamshell",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Light band",
+              "rpe": null,
+              "tag": null,
+              "notes": "Glute med activation before squatting."
+            }
+          ],
+          "main": [
+            {
+              "name": "Goblet squat or barbell back squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Start with goblet squat, progress to barbell when movement is confident. Depth drives glute activation."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T1",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "10 each leg",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Rear foot elevated. Best single-leg glute builder. Use dumbbells for load."
+            },
+            {
+              "name": "Good morning (light barbell)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Spinal erector endurance \u2014 not a max-load movement. Keep weight conservative always."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 outer hip shape. Slow and controlled, full range."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Bird-dog",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "10 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": "lower_back",
+              "notes": "Lower back motor control and stability."
+            },
+            {
+              "name": "Single-leg hip thrust (bodyweight)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute activation finisher. Balance and isolation \u2014 no load needed."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Pull",
+          "focus": "Pull + arms",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Dead hang (bar)",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "20\u201330 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Shoulder and lat activation before pull-ups."
+            }
+          ],
+          "main": [
+            {
+              "name": "Band-assisted pull-up",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "arms",
+              "notes": "Use band that allows 6\u20138 clean reps at RPE 8. Progress by moving to lighter band when current band feels RPE 6 or below."
+            },
+            {
+              "name": "Seated cable row",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Mid-back thickness. Squeeze shoulder blades together at end of each rep."
+            },
+            {
+              "name": "Lat pulldown (wide grip)",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Back width. Pull bar to upper chest \u2014 don't lean back excessively."
+            },
+            {
+              "name": "Dumbbell bicep curl",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Alternating or simultaneous. Full range of motion \u2014 full extension at bottom."
+            },
+            {
+              "name": "Hammer curl",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Neutral grip throughout. Builds brachialis \u2014 arm thickness."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Friday",
+          "session": "Glute C",
+          "focus": "Hip hinge strength + glute volume",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "5\u20136",
+              "load_kg": null,
+              "load_note": "RPE 8\u20139",
+              "rpe": 9,
+              "tag": "glutes",
+              "notes": "Heavier than Monday, fewer reps. Strength-focused variation. Full hip extension, hard squeeze."
+            },
+            {
+              "name": "Conventional deadlift or trap bar deadlift",
+              "tier": "T1",
+              "sets": 2,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "lower_back",
+              "notes": "Primary posterior chain lift of the week. Trap bar is fine if available. Neutral spine."
+            },
+            {
+              "name": "Cable pull-through",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hip hinge with cable \u2014 glute-focused. Drive hips fully forward at top."
+            },
+            {
+              "name": "Leg curl (machine)",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hamstring and glute tie-in. Slow eccentric \u2014 3 seconds down."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 second hit this week. Finisher \u2014 controlled pump."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "End of week lower back finisher. Same as Monday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 5,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Glute A",
+          "focus": "Hip thrust volume focus",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading. Drive hips fully at top."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "8\u201310",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Primary glute driver. Full hip extension at top, hard squeeze. Feet flat, chin tucked."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "lower_back",
+              "notes": "Hip hinge, neutral spine. Feel hamstring stretch at bottom. Do not round lower back."
+            },
+            {
+              "name": "Sumo squat (barbell or dumbbell)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Wide stance emphasises inner glute. Knees track over toes throughout."
+            },
+            {
+              "name": "Cable kickback",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute isolation. No swinging \u2014 squeeze hard at top of movement."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Lower back erector strength. Add plate when bodyweight feels like RPE 5 or below."
+            },
+            {
+              "name": "Plank",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "40 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Anterior core stability."
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "session": "Push",
+          "focus": "Push + arms",
+          "estimated_duration_minutes": 50,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Dumbbell shoulder press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10\u201312",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Controlled descent. Primary push movement of the session."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Chest and front delt. Controlled at bottom \u2014 full stretch."
+            },
+            {
+              "name": "Cable lateral raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "arms",
+              "notes": "Side delt \u2014 builds shoulder width. Strict form, light weight, no swinging."
+            },
+            {
+              "name": "Triceps pushdown (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "12\u201315",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Rope or bar attachment. Full extension at bottom of each rep."
+            },
+            {
+              "name": "Overhead triceps extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Long head tricep \u2014 cable or dumbbell. Elbows stay close to head."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Wednesday",
+          "session": "Glute B",
+          "focus": "Squat patterns + posterior chain",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Banded clamshell",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Light band",
+              "rpe": null,
+              "tag": null,
+              "notes": "Glute med activation before squatting."
+            }
+          ],
+          "main": [
+            {
+              "name": "Goblet squat or barbell back squat",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Start with goblet squat, progress to barbell when movement is confident. Depth drives glute activation."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each leg",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Rear foot elevated. Best single-leg glute builder. Use dumbbells for load."
+            },
+            {
+              "name": "Good morning (light barbell)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Spinal erector endurance \u2014 not a max-load movement. Keep weight conservative always."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 outer hip shape. Slow and controlled, full range."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": "lower_back",
+              "notes": "Lower back motor control and stability."
+            },
+            {
+              "name": "Single-leg hip thrust (bodyweight)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute activation finisher. Balance and isolation \u2014 no load needed."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Pull",
+          "focus": "Pull + arms",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Dead hang (bar)",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "20\u201330 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Shoulder and lat activation before pull-ups."
+            }
+          ],
+          "main": [
+            {
+              "name": "Band-assisted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "arms",
+              "notes": "Use band that allows 6\u20138 clean reps at RPE 8. Progress by moving to lighter band when current band feels RPE 6 or below."
+            },
+            {
+              "name": "Seated cable row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Mid-back thickness. Squeeze shoulder blades together at end of each rep."
+            },
+            {
+              "name": "Lat pulldown (wide grip)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Back width. Pull bar to upper chest \u2014 don't lean back excessively."
+            },
+            {
+              "name": "Dumbbell bicep curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Alternating or simultaneous. Full range of motion \u2014 full extension at bottom."
+            },
+            {
+              "name": "Hammer curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Neutral grip throughout. Builds brachialis \u2014 arm thickness."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Friday",
+          "session": "Glute C",
+          "focus": "Hip hinge strength + glute volume",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8\u20139",
+              "rpe": 9,
+              "tag": "glutes",
+              "notes": "Heavier than Monday, fewer reps. Strength-focused variation. Full hip extension, hard squeeze."
+            },
+            {
+              "name": "Conventional deadlift or trap bar deadlift",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "lower_back",
+              "notes": "Primary posterior chain lift of the week. Trap bar is fine if available. Neutral spine."
+            },
+            {
+              "name": "Cable pull-through",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hip hinge with cable \u2014 glute-focused. Drive hips fully forward at top."
+            },
+            {
+              "name": "Leg curl (machine)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hamstring and glute tie-in. Slow eccentric \u2014 3 seconds down."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 second hit this week. Finisher \u2014 controlled pump."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "End of week lower back finisher. Same as Monday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 6,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Glute A",
+          "focus": "Hip thrust volume focus",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading. Drive hips fully at top."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "8\u201310",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Primary glute driver. Full hip extension at top, hard squeeze. Feet flat, chin tucked."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "lower_back",
+              "notes": "Hip hinge, neutral spine. Feel hamstring stretch at bottom. Do not round lower back."
+            },
+            {
+              "name": "Sumo squat (barbell or dumbbell)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Wide stance emphasises inner glute. Knees track over toes throughout."
+            },
+            {
+              "name": "Cable kickback",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute isolation. No swinging \u2014 squeeze hard at top of movement."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Lower back erector strength. Add plate when bodyweight feels like RPE 5 or below."
+            },
+            {
+              "name": "Plank",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "40 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Anterior core stability."
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "session": "Push",
+          "focus": "Push + arms",
+          "estimated_duration_minutes": 50,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Dumbbell shoulder press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10\u201312",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Controlled descent. Primary push movement of the session."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Chest and front delt. Controlled at bottom \u2014 full stretch."
+            },
+            {
+              "name": "Cable lateral raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "arms",
+              "notes": "Side delt \u2014 builds shoulder width. Strict form, light weight, no swinging."
+            },
+            {
+              "name": "Triceps pushdown (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "12\u201315",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Rope or bar attachment. Full extension at bottom of each rep."
+            },
+            {
+              "name": "Overhead triceps extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Long head tricep \u2014 cable or dumbbell. Elbows stay close to head."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Wednesday",
+          "session": "Glute B",
+          "focus": "Squat patterns + posterior chain",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Banded clamshell",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Light band",
+              "rpe": null,
+              "tag": null,
+              "notes": "Glute med activation before squatting."
+            }
+          ],
+          "main": [
+            {
+              "name": "Goblet squat or barbell back squat",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Start with goblet squat, progress to barbell when movement is confident. Depth drives glute activation."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each leg",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Rear foot elevated. Best single-leg glute builder. Use dumbbells for load."
+            },
+            {
+              "name": "Good morning (light barbell)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Spinal erector endurance \u2014 not a max-load movement. Keep weight conservative always."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 outer hip shape. Slow and controlled, full range."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": "lower_back",
+              "notes": "Lower back motor control and stability."
+            },
+            {
+              "name": "Single-leg hip thrust (bodyweight)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute activation finisher. Balance and isolation \u2014 no load needed."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Pull",
+          "focus": "Pull + arms",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Dead hang (bar)",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "20\u201330 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Shoulder and lat activation before pull-ups."
+            }
+          ],
+          "main": [
+            {
+              "name": "Band-assisted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "arms",
+              "notes": "Use band that allows 6\u20138 clean reps at RPE 8. Progress by moving to lighter band when current band feels RPE 6 or below."
+            },
+            {
+              "name": "Seated cable row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Mid-back thickness. Squeeze shoulder blades together at end of each rep."
+            },
+            {
+              "name": "Lat pulldown (wide grip)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Back width. Pull bar to upper chest \u2014 don't lean back excessively."
+            },
+            {
+              "name": "Dumbbell bicep curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Alternating or simultaneous. Full range of motion \u2014 full extension at bottom."
+            },
+            {
+              "name": "Hammer curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Neutral grip throughout. Builds brachialis \u2014 arm thickness."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Friday",
+          "session": "Glute C",
+          "focus": "Hip hinge strength + glute volume",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8\u20139",
+              "rpe": 9,
+              "tag": "glutes",
+              "notes": "Heavier than Monday, fewer reps. Strength-focused variation. Full hip extension, hard squeeze."
+            },
+            {
+              "name": "Conventional deadlift or trap bar deadlift",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "lower_back",
+              "notes": "Primary posterior chain lift of the week. Trap bar is fine if available. Neutral spine."
+            },
+            {
+              "name": "Cable pull-through",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hip hinge with cable \u2014 glute-focused. Drive hips fully forward at top."
+            },
+            {
+              "name": "Leg curl (machine)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hamstring and glute tie-in. Slow eccentric \u2014 3 seconds down."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 second hit this week. Finisher \u2014 controlled pump."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "End of week lower back finisher. Same as Monday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 7,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Glute A",
+          "focus": "Hip thrust volume focus",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading. Drive hips fully at top."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "8\u201310",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Primary glute driver. Full hip extension at top, hard squeeze. Feet flat, chin tucked."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "lower_back",
+              "notes": "Hip hinge, neutral spine. Feel hamstring stretch at bottom. Do not round lower back."
+            },
+            {
+              "name": "Sumo squat (barbell or dumbbell)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Wide stance emphasises inner glute. Knees track over toes throughout."
+            },
+            {
+              "name": "Cable kickback",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute isolation. No swinging \u2014 squeeze hard at top of movement."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Lower back erector strength. Add plate when bodyweight feels like RPE 5 or below."
+            },
+            {
+              "name": "Plank",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "40 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Anterior core stability."
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "session": "Push",
+          "focus": "Push + arms",
+          "estimated_duration_minutes": 50,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Dumbbell shoulder press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10\u201312",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Controlled descent. Primary push movement of the session."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Chest and front delt. Controlled at bottom \u2014 full stretch."
+            },
+            {
+              "name": "Cable lateral raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "arms",
+              "notes": "Side delt \u2014 builds shoulder width. Strict form, light weight, no swinging."
+            },
+            {
+              "name": "Triceps pushdown (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "12\u201315",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Rope or bar attachment. Full extension at bottom of each rep."
+            },
+            {
+              "name": "Overhead triceps extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Long head tricep \u2014 cable or dumbbell. Elbows stay close to head."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Wednesday",
+          "session": "Glute B",
+          "focus": "Squat patterns + posterior chain",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Banded clamshell",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Light band",
+              "rpe": null,
+              "tag": null,
+              "notes": "Glute med activation before squatting."
+            }
+          ],
+          "main": [
+            {
+              "name": "Goblet squat or barbell back squat",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Start with goblet squat, progress to barbell when movement is confident. Depth drives glute activation."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each leg",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Rear foot elevated. Best single-leg glute builder. Use dumbbells for load."
+            },
+            {
+              "name": "Good morning (light barbell)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Spinal erector endurance \u2014 not a max-load movement. Keep weight conservative always."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 outer hip shape. Slow and controlled, full range."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": "lower_back",
+              "notes": "Lower back motor control and stability."
+            },
+            {
+              "name": "Single-leg hip thrust (bodyweight)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute activation finisher. Balance and isolation \u2014 no load needed."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Pull",
+          "focus": "Pull + arms",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Dead hang (bar)",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "20\u201330 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Shoulder and lat activation before pull-ups."
+            }
+          ],
+          "main": [
+            {
+              "name": "Band-assisted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "arms",
+              "notes": "Use band that allows 6\u20138 clean reps at RPE 8. Progress by moving to lighter band when current band feels RPE 6 or below."
+            },
+            {
+              "name": "Seated cable row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Mid-back thickness. Squeeze shoulder blades together at end of each rep."
+            },
+            {
+              "name": "Lat pulldown (wide grip)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Back width. Pull bar to upper chest \u2014 don't lean back excessively."
+            },
+            {
+              "name": "Dumbbell bicep curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Alternating or simultaneous. Full range of motion \u2014 full extension at bottom."
+            },
+            {
+              "name": "Hammer curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Neutral grip throughout. Builds brachialis \u2014 arm thickness."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Friday",
+          "session": "Glute C",
+          "focus": "Hip hinge strength + glute volume",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8\u20139",
+              "rpe": 9,
+              "tag": "glutes",
+              "notes": "Heavier than Monday, fewer reps. Strength-focused variation. Full hip extension, hard squeeze."
+            },
+            {
+              "name": "Conventional deadlift or trap bar deadlift",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "lower_back",
+              "notes": "Primary posterior chain lift of the week. Trap bar is fine if available. Neutral spine."
+            },
+            {
+              "name": "Cable pull-through",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hip hinge with cable \u2014 glute-focused. Drive hips fully forward at top."
+            },
+            {
+              "name": "Leg curl (machine)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hamstring and glute tie-in. Slow eccentric \u2014 3 seconds down."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 second hit this week. Finisher \u2014 controlled pump."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "End of week lower back finisher. Same as Monday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 8,
+      "is_deload": true,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Glute A",
+          "focus": "Hip thrust volume focus",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading. Drive hips fully at top."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Primary glute driver. Full hip extension at top, hard squeeze. Feet flat, chin tucked."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "lower_back",
+              "notes": "Hip hinge, neutral spine. Feel hamstring stretch at bottom. Do not round lower back."
+            },
+            {
+              "name": "Sumo squat (barbell or dumbbell)",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Wide stance emphasises inner glute. Knees track over toes throughout."
+            },
+            {
+              "name": "Cable kickback",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute isolation. No swinging \u2014 squeeze hard at top of movement."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Lower back erector strength. Add plate when bodyweight feels like RPE 5 or below."
+            },
+            {
+              "name": "Plank",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "40 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Anterior core stability."
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "session": "Push",
+          "focus": "Push + arms",
+          "estimated_duration_minutes": 50,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Dumbbell shoulder press (seated)",
+              "tier": "T2",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "10\u201312",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Controlled descent. Primary push movement of the session."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Chest and front delt. Controlled at bottom \u2014 full stretch."
+            },
+            {
+              "name": "Cable lateral raise",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "arms",
+              "notes": "Side delt \u2014 builds shoulder width. Strict form, light weight, no swinging."
+            },
+            {
+              "name": "Triceps pushdown (cable)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "12\u201315",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Rope or bar attachment. Full extension at bottom of each rep."
+            },
+            {
+              "name": "Overhead triceps extension",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Long head tricep \u2014 cable or dumbbell. Elbows stay close to head."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Wednesday",
+          "session": "Glute B",
+          "focus": "Squat patterns + posterior chain",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Banded clamshell",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Light band",
+              "rpe": null,
+              "tag": null,
+              "notes": "Glute med activation before squatting."
+            }
+          ],
+          "main": [
+            {
+              "name": "Goblet squat or barbell back squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Start with goblet squat, progress to barbell when movement is confident. Depth drives glute activation."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T1",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "10 each leg",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Rear foot elevated. Best single-leg glute builder. Use dumbbells for load."
+            },
+            {
+              "name": "Good morning (light barbell)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Spinal erector endurance \u2014 not a max-load movement. Keep weight conservative always."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 outer hip shape. Slow and controlled, full range."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Bird-dog",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "10 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": "lower_back",
+              "notes": "Lower back motor control and stability."
+            },
+            {
+              "name": "Single-leg hip thrust (bodyweight)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute activation finisher. Balance and isolation \u2014 no load needed."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Pull",
+          "focus": "Pull + arms",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Dead hang (bar)",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "20\u201330 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Shoulder and lat activation before pull-ups."
+            }
+          ],
+          "main": [
+            {
+              "name": "Band-assisted pull-up",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "arms",
+              "notes": "Use band that allows 6\u20138 clean reps at RPE 8. Progress by moving to lighter band when current band feels RPE 6 or below."
+            },
+            {
+              "name": "Seated cable row",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Mid-back thickness. Squeeze shoulder blades together at end of each rep."
+            },
+            {
+              "name": "Lat pulldown (wide grip)",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Back width. Pull bar to upper chest \u2014 don't lean back excessively."
+            },
+            {
+              "name": "Dumbbell bicep curl",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Alternating or simultaneous. Full range of motion \u2014 full extension at bottom."
+            },
+            {
+              "name": "Hammer curl",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Neutral grip throughout. Builds brachialis \u2014 arm thickness."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Friday",
+          "session": "Glute C",
+          "focus": "Hip hinge strength + glute volume",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "5\u20136",
+              "load_kg": null,
+              "load_note": "RPE 8\u20139",
+              "rpe": 9,
+              "tag": "glutes",
+              "notes": "Heavier than Monday, fewer reps. Strength-focused variation. Full hip extension, hard squeeze."
+            },
+            {
+              "name": "Conventional deadlift or trap bar deadlift",
+              "tier": "T1",
+              "sets": 2,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "lower_back",
+              "notes": "Primary posterior chain lift of the week. Trap bar is fine if available. Neutral spine."
+            },
+            {
+              "name": "Cable pull-through",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hip hinge with cable \u2014 glute-focused. Drive hips fully forward at top."
+            },
+            {
+              "name": "Leg curl (machine)",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hamstring and glute tie-in. Slow eccentric \u2014 3 seconds down."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 second hit this week. Finisher \u2014 controlled pump."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "End of week lower back finisher. Same as Monday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 9,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Glute A",
+          "focus": "Hip thrust volume focus",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading. Drive hips fully at top."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "8\u201310",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Primary glute driver. Full hip extension at top, hard squeeze. Feet flat, chin tucked."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "lower_back",
+              "notes": "Hip hinge, neutral spine. Feel hamstring stretch at bottom. Do not round lower back."
+            },
+            {
+              "name": "Sumo squat (barbell or dumbbell)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Wide stance emphasises inner glute. Knees track over toes throughout."
+            },
+            {
+              "name": "Cable kickback",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute isolation. No swinging \u2014 squeeze hard at top of movement."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Lower back erector strength. Add plate when bodyweight feels like RPE 5 or below."
+            },
+            {
+              "name": "Plank",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "40 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Anterior core stability."
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "session": "Push",
+          "focus": "Push + arms",
+          "estimated_duration_minutes": 50,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Dumbbell shoulder press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10\u201312",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Controlled descent. Primary push movement of the session."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Chest and front delt. Controlled at bottom \u2014 full stretch."
+            },
+            {
+              "name": "Cable lateral raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "arms",
+              "notes": "Side delt \u2014 builds shoulder width. Strict form, light weight, no swinging."
+            },
+            {
+              "name": "Triceps pushdown (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "12\u201315",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Rope or bar attachment. Full extension at bottom of each rep."
+            },
+            {
+              "name": "Overhead triceps extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Long head tricep \u2014 cable or dumbbell. Elbows stay close to head."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Wednesday",
+          "session": "Glute B",
+          "focus": "Squat patterns + posterior chain",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Banded clamshell",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Light band",
+              "rpe": null,
+              "tag": null,
+              "notes": "Glute med activation before squatting."
+            }
+          ],
+          "main": [
+            {
+              "name": "Goblet squat or barbell back squat",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Start with goblet squat, progress to barbell when movement is confident. Depth drives glute activation."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each leg",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Rear foot elevated. Best single-leg glute builder. Use dumbbells for load."
+            },
+            {
+              "name": "Good morning (light barbell)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Spinal erector endurance \u2014 not a max-load movement. Keep weight conservative always."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 outer hip shape. Slow and controlled, full range."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": "lower_back",
+              "notes": "Lower back motor control and stability."
+            },
+            {
+              "name": "Single-leg hip thrust (bodyweight)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute activation finisher. Balance and isolation \u2014 no load needed."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Pull",
+          "focus": "Pull + arms",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Dead hang (bar)",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "20\u201330 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Shoulder and lat activation before pull-ups."
+            }
+          ],
+          "main": [
+            {
+              "name": "Band-assisted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "arms",
+              "notes": "Use band that allows 6\u20138 clean reps at RPE 8. Progress by moving to lighter band when current band feels RPE 6 or below."
+            },
+            {
+              "name": "Seated cable row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Mid-back thickness. Squeeze shoulder blades together at end of each rep."
+            },
+            {
+              "name": "Lat pulldown (wide grip)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Back width. Pull bar to upper chest \u2014 don't lean back excessively."
+            },
+            {
+              "name": "Dumbbell bicep curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Alternating or simultaneous. Full range of motion \u2014 full extension at bottom."
+            },
+            {
+              "name": "Hammer curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Neutral grip throughout. Builds brachialis \u2014 arm thickness."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Friday",
+          "session": "Glute C",
+          "focus": "Hip hinge strength + glute volume",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8\u20139",
+              "rpe": 9,
+              "tag": "glutes",
+              "notes": "Heavier than Monday, fewer reps. Strength-focused variation. Full hip extension, hard squeeze."
+            },
+            {
+              "name": "Conventional deadlift or trap bar deadlift",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "lower_back",
+              "notes": "Primary posterior chain lift of the week. Trap bar is fine if available. Neutral spine."
+            },
+            {
+              "name": "Cable pull-through",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hip hinge with cable \u2014 glute-focused. Drive hips fully forward at top."
+            },
+            {
+              "name": "Leg curl (machine)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hamstring and glute tie-in. Slow eccentric \u2014 3 seconds down."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 second hit this week. Finisher \u2014 controlled pump."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "End of week lower back finisher. Same as Monday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 10,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Glute A",
+          "focus": "Hip thrust volume focus",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading. Drive hips fully at top."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "8\u201310",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Primary glute driver. Full hip extension at top, hard squeeze. Feet flat, chin tucked."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "lower_back",
+              "notes": "Hip hinge, neutral spine. Feel hamstring stretch at bottom. Do not round lower back."
+            },
+            {
+              "name": "Sumo squat (barbell or dumbbell)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Wide stance emphasises inner glute. Knees track over toes throughout."
+            },
+            {
+              "name": "Cable kickback",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute isolation. No swinging \u2014 squeeze hard at top of movement."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Lower back erector strength. Add plate when bodyweight feels like RPE 5 or below."
+            },
+            {
+              "name": "Plank",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "40 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Anterior core stability."
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "session": "Push",
+          "focus": "Push + arms",
+          "estimated_duration_minutes": 50,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Dumbbell shoulder press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10\u201312",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Controlled descent. Primary push movement of the session."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Chest and front delt. Controlled at bottom \u2014 full stretch."
+            },
+            {
+              "name": "Cable lateral raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "arms",
+              "notes": "Side delt \u2014 builds shoulder width. Strict form, light weight, no swinging."
+            },
+            {
+              "name": "Triceps pushdown (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "12\u201315",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Rope or bar attachment. Full extension at bottom of each rep."
+            },
+            {
+              "name": "Overhead triceps extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Long head tricep \u2014 cable or dumbbell. Elbows stay close to head."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Wednesday",
+          "session": "Glute B",
+          "focus": "Squat patterns + posterior chain",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Banded clamshell",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Light band",
+              "rpe": null,
+              "tag": null,
+              "notes": "Glute med activation before squatting."
+            }
+          ],
+          "main": [
+            {
+              "name": "Goblet squat or barbell back squat",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Start with goblet squat, progress to barbell when movement is confident. Depth drives glute activation."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each leg",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Rear foot elevated. Best single-leg glute builder. Use dumbbells for load."
+            },
+            {
+              "name": "Good morning (light barbell)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Spinal erector endurance \u2014 not a max-load movement. Keep weight conservative always."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 outer hip shape. Slow and controlled, full range."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": "lower_back",
+              "notes": "Lower back motor control and stability."
+            },
+            {
+              "name": "Single-leg hip thrust (bodyweight)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute activation finisher. Balance and isolation \u2014 no load needed."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Pull",
+          "focus": "Pull + arms",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Dead hang (bar)",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "20\u201330 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Shoulder and lat activation before pull-ups."
+            }
+          ],
+          "main": [
+            {
+              "name": "Band-assisted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "arms",
+              "notes": "Use band that allows 6\u20138 clean reps at RPE 8. Progress by moving to lighter band when current band feels RPE 6 or below."
+            },
+            {
+              "name": "Seated cable row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Mid-back thickness. Squeeze shoulder blades together at end of each rep."
+            },
+            {
+              "name": "Lat pulldown (wide grip)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Back width. Pull bar to upper chest \u2014 don't lean back excessively."
+            },
+            {
+              "name": "Dumbbell bicep curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Alternating or simultaneous. Full range of motion \u2014 full extension at bottom."
+            },
+            {
+              "name": "Hammer curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Neutral grip throughout. Builds brachialis \u2014 arm thickness."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Friday",
+          "session": "Glute C",
+          "focus": "Hip hinge strength + glute volume",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8\u20139",
+              "rpe": 9,
+              "tag": "glutes",
+              "notes": "Heavier than Monday, fewer reps. Strength-focused variation. Full hip extension, hard squeeze."
+            },
+            {
+              "name": "Conventional deadlift or trap bar deadlift",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "lower_back",
+              "notes": "Primary posterior chain lift of the week. Trap bar is fine if available. Neutral spine."
+            },
+            {
+              "name": "Cable pull-through",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hip hinge with cable \u2014 glute-focused. Drive hips fully forward at top."
+            },
+            {
+              "name": "Leg curl (machine)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hamstring and glute tie-in. Slow eccentric \u2014 3 seconds down."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 second hit this week. Finisher \u2014 controlled pump."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "End of week lower back finisher. Same as Monday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 11,
+      "is_deload": false,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Glute A",
+          "focus": "Hip thrust volume focus",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading. Drive hips fully at top."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "8\u201310",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Primary glute driver. Full hip extension at top, hard squeeze. Feet flat, chin tucked."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "lower_back",
+              "notes": "Hip hinge, neutral spine. Feel hamstring stretch at bottom. Do not round lower back."
+            },
+            {
+              "name": "Sumo squat (barbell or dumbbell)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Wide stance emphasises inner glute. Knees track over toes throughout."
+            },
+            {
+              "name": "Cable kickback",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute isolation. No swinging \u2014 squeeze hard at top of movement."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Lower back erector strength. Add plate when bodyweight feels like RPE 5 or below."
+            },
+            {
+              "name": "Plank",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "40 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Anterior core stability."
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "session": "Push",
+          "focus": "Push + arms",
+          "estimated_duration_minutes": 50,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Dumbbell shoulder press (seated)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10\u201312",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Controlled descent. Primary push movement of the session."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Chest and front delt. Controlled at bottom \u2014 full stretch."
+            },
+            {
+              "name": "Cable lateral raise",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "arms",
+              "notes": "Side delt \u2014 builds shoulder width. Strict form, light weight, no swinging."
+            },
+            {
+              "name": "Triceps pushdown (cable)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "12\u201315",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Rope or bar attachment. Full extension at bottom of each rep."
+            },
+            {
+              "name": "Overhead triceps extension",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Long head tricep \u2014 cable or dumbbell. Elbows stay close to head."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Wednesday",
+          "session": "Glute B",
+          "focus": "Squat patterns + posterior chain",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Banded clamshell",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Light band",
+              "rpe": null,
+              "tag": null,
+              "notes": "Glute med activation before squatting."
+            }
+          ],
+          "main": [
+            {
+              "name": "Goblet squat or barbell back squat",
+              "tier": "T1",
+              "sets": 4,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Start with goblet squat, progress to barbell when movement is confident. Depth drives glute activation."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each leg",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Rear foot elevated. Best single-leg glute builder. Use dumbbells for load."
+            },
+            {
+              "name": "Good morning (light barbell)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Spinal erector endurance \u2014 not a max-load movement. Keep weight conservative always."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 outer hip shape. Slow and controlled, full range."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Bird-dog",
+              "tier": "T3",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "10 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": "lower_back",
+              "notes": "Lower back motor control and stability."
+            },
+            {
+              "name": "Single-leg hip thrust (bodyweight)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute activation finisher. Balance and isolation \u2014 no load needed."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Pull",
+          "focus": "Pull + arms",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Dead hang (bar)",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "20\u201330 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Shoulder and lat activation before pull-ups."
+            }
+          ],
+          "main": [
+            {
+              "name": "Band-assisted pull-up",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "arms",
+              "notes": "Use band that allows 6\u20138 clean reps at RPE 8. Progress by moving to lighter band when current band feels RPE 6 or below."
+            },
+            {
+              "name": "Seated cable row",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Mid-back thickness. Squeeze shoulder blades together at end of each rep."
+            },
+            {
+              "name": "Lat pulldown (wide grip)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Back width. Pull bar to upper chest \u2014 don't lean back excessively."
+            },
+            {
+              "name": "Dumbbell bicep curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Alternating or simultaneous. Full range of motion \u2014 full extension at bottom."
+            },
+            {
+              "name": "Hammer curl",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Neutral grip throughout. Builds brachialis \u2014 arm thickness."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Friday",
+          "session": "Glute C",
+          "focus": "Hip hinge strength + glute volume",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 4,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8\u20139",
+              "rpe": 9,
+              "tag": "glutes",
+              "notes": "Heavier than Monday, fewer reps. Strength-focused variation. Full hip extension, hard squeeze."
+            },
+            {
+              "name": "Conventional deadlift or trap bar deadlift",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "lower_back",
+              "notes": "Primary posterior chain lift of the week. Trap bar is fine if available. Neutral spine."
+            },
+            {
+              "name": "Cable pull-through",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hip hinge with cable \u2014 glute-focused. Drive hips fully forward at top."
+            },
+            {
+              "name": "Leg curl (machine)",
+              "tier": "T2",
+              "sets": 3,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hamstring and glute tie-in. Slow eccentric \u2014 3 seconds down."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 second hit this week. Finisher \u2014 controlled pump."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 3,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "End of week lower back finisher. Same as Monday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_number": 12,
+      "is_deload": true,
+      "days": [
+        {
+          "day": "Monday",
+          "session": "Glute A",
+          "focus": "Hip thrust volume focus",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading. Drive hips fully at top."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Primary glute driver. Full hip extension at top, hard squeeze. Feet flat, chin tucked."
+            },
+            {
+              "name": "Romanian deadlift",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "lower_back",
+              "notes": "Hip hinge, neutral spine. Feel hamstring stretch at bottom. Do not round lower back."
+            },
+            {
+              "name": "Sumo squat (barbell or dumbbell)",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Wide stance emphasises inner glute. Knees track over toes throughout."
+            },
+            {
+              "name": "Cable kickback",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute isolation. No swinging \u2014 squeeze hard at top of movement."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Lower back erector strength. Add plate when bodyweight feels like RPE 5 or below."
+            },
+            {
+              "name": "Plank",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "40 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Anterior core stability."
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "session": "Push",
+          "focus": "Push + arms",
+          "estimated_duration_minutes": 50,
+          "warmup": [],
+          "main": [
+            {
+              "name": "Dumbbell shoulder press (seated)",
+              "tier": "T2",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "10\u201312",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Controlled descent. Primary push movement of the session."
+            },
+            {
+              "name": "Incline dumbbell press",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Chest and front delt. Controlled at bottom \u2014 full stretch."
+            },
+            {
+              "name": "Cable lateral raise",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "arms",
+              "notes": "Side delt \u2014 builds shoulder width. Strict form, light weight, no swinging."
+            },
+            {
+              "name": "Triceps pushdown (cable)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "12\u201315",
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Rope or bar attachment. Full extension at bottom of each rep."
+            },
+            {
+              "name": "Overhead triceps extension",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Long head tricep \u2014 cable or dumbbell. Elbows stay close to head."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Wednesday",
+          "session": "Glute B",
+          "focus": "Squat patterns + posterior chain",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Banded clamshell",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Light band",
+              "rpe": null,
+              "tag": null,
+              "notes": "Glute med activation before squatting."
+            }
+          ],
+          "main": [
+            {
+              "name": "Goblet squat or barbell back squat",
+              "tier": "T1",
+              "sets": 3,
+              "reps": 10,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Start with goblet squat, progress to barbell when movement is confident. Depth drives glute activation."
+            },
+            {
+              "name": "Bulgarian split squat",
+              "tier": "T1",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "10 each leg",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "glutes",
+              "notes": "Rear foot elevated. Best single-leg glute builder. Use dumbbells for load."
+            },
+            {
+              "name": "Good morning (light barbell)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "Spinal erector endurance \u2014 not a max-load movement. Keep weight conservative always."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 outer hip shape. Slow and controlled, full range."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Bird-dog",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "10 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": "lower_back",
+              "notes": "Lower back motor control and stability."
+            },
+            {
+              "name": "Single-leg hip thrust (bodyweight)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": null,
+              "reps_note": "15 each side",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute activation finisher. Balance and isolation \u2014 no load needed."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "session": "Pull",
+          "focus": "Pull + arms",
+          "estimated_duration_minutes": 55,
+          "warmup": [
+            {
+              "name": "Dead hang (bar)",
+              "tier": null,
+              "sets": 2,
+              "reps": null,
+              "reps_note": "20\u201330 seconds",
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Shoulder and lat activation before pull-ups."
+            }
+          ],
+          "main": [
+            {
+              "name": "Band-assisted pull-up",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "6\u20138",
+              "load_kg": null,
+              "load_note": "RPE 8",
+              "rpe": 8,
+              "tag": "arms",
+              "notes": "Use band that allows 6\u20138 clean reps at RPE 8. Progress by moving to lighter band when current band feels RPE 6 or below."
+            },
+            {
+              "name": "Seated cable row",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Mid-back thickness. Squeeze shoulder blades together at end of each rep."
+            },
+            {
+              "name": "Lat pulldown (wide grip)",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": null,
+              "notes": "Back width. Pull bar to upper chest \u2014 don't lean back excessively."
+            },
+            {
+              "name": "Dumbbell bicep curl",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Alternating or simultaneous. Full range of motion \u2014 full extension at bottom."
+            },
+            {
+              "name": "Hammer curl",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "arms",
+              "notes": "Neutral grip throughout. Builds brachialis \u2014 arm thickness."
+            }
+          ],
+          "accessories": []
+        },
+        {
+          "day": "Friday",
+          "session": "Glute C",
+          "focus": "Hip hinge strength + glute volume",
+          "estimated_duration_minutes": 60,
+          "warmup": [
+            {
+              "name": "Glute bridge (bodyweight)",
+              "tier": null,
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight",
+              "rpe": null,
+              "tag": null,
+              "notes": "Activation before loading."
+            }
+          ],
+          "main": [
+            {
+              "name": "Barbell hip thrust",
+              "tier": "T1",
+              "sets": 3,
+              "reps": null,
+              "reps_note": "5\u20136",
+              "load_kg": null,
+              "load_note": "RPE 8\u20139",
+              "rpe": 9,
+              "tag": "glutes",
+              "notes": "Heavier than Monday, fewer reps. Strength-focused variation. Full hip extension, hard squeeze."
+            },
+            {
+              "name": "Conventional deadlift or trap bar deadlift",
+              "tier": "T1",
+              "sets": 2,
+              "reps": 8,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7\u20138",
+              "rpe": 8,
+              "tag": "lower_back",
+              "notes": "Primary posterior chain lift of the week. Trap bar is fine if available. Neutral spine."
+            },
+            {
+              "name": "Cable pull-through",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hip hinge with cable \u2014 glute-focused. Drive hips fully forward at top."
+            },
+            {
+              "name": "Leg curl (machine)",
+              "tier": "T2",
+              "sets": 2,
+              "reps": 12,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 7",
+              "rpe": 7,
+              "tag": "glutes",
+              "notes": "Hamstring and glute tie-in. Slow eccentric \u2014 3 seconds down."
+            },
+            {
+              "name": "Abductor machine",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 20,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "RPE 6",
+              "rpe": 6,
+              "tag": "glutes",
+              "notes": "Glute medius \u2014 second hit this week. Finisher \u2014 controlled pump."
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Hyperextension (45\u00b0 back raise)",
+              "tier": "T3",
+              "sets": 2,
+              "reps": 15,
+              "reps_note": null,
+              "load_kg": null,
+              "load_note": "Bodyweight or light plate",
+              "rpe": 6,
+              "tag": "lower_back",
+              "notes": "End of week lower back finisher. Same as Monday."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
