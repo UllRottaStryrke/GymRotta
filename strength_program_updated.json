@@ -68,10 +68,10 @@
               "tier": "T1",
               "sets": 3,
               "reps": null,
-              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 60.0 kg",
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 61.25 kg",
               "load_kg": {
-                "heavy": 90,
-                "backoff": 60
+                "heavy": 90.0,
+                "backoff": 61.25
               },
               "load_note": "heavy kg / back-off kg",
               "rpe": {
@@ -231,7 +231,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 10.0,
+              "load_kg": 12.5,
               "load_note": "Bodyweight or light plate",
               "rpe": 6,
               "confirmed": true,
@@ -263,7 +263,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 47.5,
+              "load_kg": 52.5,
               "load_note": "RPE 7",
               "rpe": 7,
               "confirmed": true,
@@ -727,10 +727,10 @@
               "tier": "T1",
               "sets": 3,
               "reps": null,
-              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 61.25 kg",
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 62.5 kg",
               "load_kg": {
-                "heavy": 90,
-                "backoff": 61.25
+                "heavy": 90.0,
+                "backoff": 62.5
               },
               "load_note": "heavy kg / back-off kg",
               "rpe": {
@@ -818,7 +818,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 12.5,
+              "load_kg": 15.0,
               "load_note": "Bodyweight or light plate",
               "rpe": 6,
               "confirmed": true,
@@ -830,7 +830,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 50.0,
+              "load_kg": 55.0,
               "load_note": "RPE 7",
               "rpe": 7,
               "confirmed": true,
@@ -1073,10 +1073,10 @@
               "tier": "T1",
               "sets": 3,
               "reps": null,
-              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 62.5 kg",
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 63.75 kg",
               "load_kg": {
-                "heavy": 90,
-                "backoff": 62.5
+                "heavy": 90.0,
+                "backoff": 63.75
               },
               "load_note": "heavy kg / back-off kg",
               "rpe": {
@@ -1164,7 +1164,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 15.0,
+              "load_kg": 17.5,
               "load_note": "Bodyweight or light plate",
               "rpe": 6,
               "confirmed": true,
@@ -1176,7 +1176,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 52.5,
+              "load_kg": 57.5,
               "load_note": "RPE 7",
               "rpe": 7,
               "confirmed": true,
@@ -1422,7 +1422,7 @@
               "reps_note": "2 rounds of: 2 reps \u00d7 67.5 kg \u2192 15 reps \u00d7 45.0 kg",
               "load_kg": {
                 "heavy": 67.5,
-                "backoff": 45
+                "backoff": 45.0
               },
               "load_note": "heavy kg / back-off kg",
               "rpe": {
@@ -1510,7 +1510,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 7.5,
+              "load_kg": 10.0,
               "load_note": "Bodyweight or light plate",
               "rpe": 6,
               "confirmed": true,
@@ -1522,7 +1522,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 35.0,
+              "load_kg": 40.0,
               "load_note": "RPE 7",
               "rpe": 7,
               "confirmed": true,
@@ -1765,10 +1765,10 @@
               "tier": "T1",
               "sets": 3,
               "reps": null,
-              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 65.0 kg",
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 66.25 kg",
               "load_kg": {
-                "heavy": 90,
-                "backoff": 65
+                "heavy": 90.0,
+                "backoff": 66.25
               },
               "load_note": "heavy kg / back-off kg",
               "rpe": {
@@ -1856,7 +1856,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 20.0,
+              "load_kg": 22.5,
               "load_note": "Bodyweight or light plate",
               "rpe": 6,
               "confirmed": true,
@@ -1868,7 +1868,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 57.5,
+              "load_kg": 62.5,
               "load_note": "RPE 7",
               "rpe": 7,
               "confirmed": true,
@@ -2111,10 +2111,10 @@
               "tier": "T1",
               "sets": 3,
               "reps": null,
-              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 66.25 kg",
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 67.5 kg",
               "load_kg": {
-                "heavy": 90,
-                "backoff": 66.25
+                "heavy": 90.0,
+                "backoff": 67.5
               },
               "load_note": "heavy kg / back-off kg",
               "rpe": {
@@ -2202,7 +2202,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 22.5,
+              "load_kg": 25.0,
               "load_note": "Bodyweight or light plate",
               "rpe": 6,
               "confirmed": true,
@@ -2214,7 +2214,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 60.0,
+              "load_kg": 65.0,
               "load_note": "RPE 7",
               "rpe": 7,
               "confirmed": true,
@@ -2457,10 +2457,10 @@
               "tier": "T1",
               "sets": 3,
               "reps": null,
-              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 67.5 kg",
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 68.75 kg",
               "load_kg": {
-                "heavy": 90,
-                "backoff": 67.5
+                "heavy": 90.0,
+                "backoff": 68.75
               },
               "load_note": "heavy kg / back-off kg",
               "rpe": {
@@ -2548,7 +2548,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 25.0,
+              "load_kg": 27.5,
               "load_note": "Bodyweight or light plate",
               "rpe": 6,
               "confirmed": true,
@@ -2560,7 +2560,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 62.5,
+              "load_kg": 67.5,
               "load_note": "RPE 7",
               "rpe": 7,
               "confirmed": true,
@@ -2806,7 +2806,7 @@
               "reps_note": "2 rounds of: 2 reps \u00d7 67.5 kg \u2192 15 reps \u00d7 45.0 kg",
               "load_kg": {
                 "heavy": 67.5,
-                "backoff": 45
+                "backoff": 45.0
               },
               "load_note": "heavy kg / back-off kg",
               "rpe": {
@@ -2894,7 +2894,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 7.5,
+              "load_kg": 10.0,
               "load_note": "Bodyweight or light plate",
               "rpe": 6,
               "confirmed": true,
@@ -2906,7 +2906,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 35.0,
+              "load_kg": 40.0,
               "load_note": "RPE 7",
               "rpe": 7,
               "confirmed": true,
@@ -3149,10 +3149,10 @@
               "tier": "T1",
               "sets": 3,
               "reps": null,
-              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 70.0 kg",
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 71.25 kg",
               "load_kg": {
-                "heavy": 90,
-                "backoff": 70
+                "heavy": 90.0,
+                "backoff": 71.25
               },
               "load_note": "heavy kg / back-off kg",
               "rpe": {
@@ -3240,7 +3240,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 30.0,
+              "load_kg": 32.5,
               "load_note": "Bodyweight or light plate",
               "rpe": 6,
               "confirmed": true,
@@ -3252,7 +3252,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 67.5,
+              "load_kg": 72.5,
               "load_note": "RPE 7",
               "rpe": 7,
               "confirmed": true,
@@ -3495,10 +3495,10 @@
               "tier": "T1",
               "sets": 3,
               "reps": null,
-              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 71.25 kg",
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 72.5 kg",
               "load_kg": {
-                "heavy": 90,
-                "backoff": 71.25
+                "heavy": 90.0,
+                "backoff": 72.5
               },
               "load_note": "heavy kg / back-off kg",
               "rpe": {
@@ -3586,7 +3586,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 32.5,
+              "load_kg": 35.0,
               "load_note": "Bodyweight or light plate",
               "rpe": 6,
               "confirmed": true,
@@ -3598,7 +3598,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 70.0,
+              "load_kg": 75.0,
               "load_note": "RPE 7",
               "rpe": 7,
               "confirmed": true,
@@ -3841,10 +3841,10 @@
               "tier": "T1",
               "sets": 3,
               "reps": null,
-              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 72.5 kg",
+              "reps_note": "3 rounds of: 2 reps \u00d7 90.0 kg \u2192 15 reps \u00d7 73.75 kg",
               "load_kg": {
-                "heavy": 90,
-                "backoff": 72.5
+                "heavy": 90.0,
+                "backoff": 73.75
               },
               "load_note": "heavy kg / back-off kg",
               "rpe": {
@@ -3932,7 +3932,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 35.0,
+              "load_kg": 37.5,
               "load_note": "Bodyweight or light plate",
               "rpe": 6,
               "confirmed": true,
@@ -3944,7 +3944,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 72.5,
+              "load_kg": 77.5,
               "load_note": "RPE 7",
               "rpe": 7,
               "confirmed": true,
@@ -4190,7 +4190,7 @@
               "reps_note": "2 rounds of: 2 reps \u00d7 67.5 kg \u2192 15 reps \u00d7 45.0 kg",
               "load_kg": {
                 "heavy": 67.5,
-                "backoff": 45
+                "backoff": 45.0
               },
               "load_note": "heavy kg / back-off kg",
               "rpe": {
@@ -4278,7 +4278,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 7.5,
+              "load_kg": 10.0,
               "load_note": "Bodyweight or light plate",
               "rpe": 6,
               "confirmed": true,
@@ -4290,7 +4290,7 @@
               "sets": 3,
               "reps": 15,
               "reps_note": null,
-              "load_kg": 35.0,
+              "load_kg": 40.0,
               "load_note": "RPE 7",
               "rpe": 7,
               "confirmed": true,
