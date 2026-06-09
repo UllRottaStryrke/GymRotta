@@ -17,33 +17,22 @@
       --primary: #38bdf8;
       --primary-ink: #0c1220;
       --ok: #22c55e;
-      --warn: #f59e0b;
-      --danger: #ef4444;
     }
     * { box-sizing: border-box; }
     html, body {
-      margin: 0;
-      padding: 0;
-      background: var(--bg);
-      color: var(--text);
+      margin: 0; padding: 0;
+      background: var(--bg); color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       font-size: 16px;
       -webkit-tap-highlight-color: transparent;
     }
     header {
-      position: sticky;
-      top: 0;
-      z-index: 10;
+      position: sticky; top: 0; z-index: 10;
       background: var(--surface);
       border-bottom: 1px solid var(--border);
       padding: 12px 14px calc(12px + env(safe-area-inset-bottom, 0px));
     }
-    h1 {
-      font-size: 18px;
-      margin: 0 0 8px 0;
-      font-weight: 600;
-      letter-spacing: 0.2px;
-    }
+    h1 { font-size: 18px; margin: 0 0 8px 0; font-weight: 600; }
     .row { display: flex; gap: 8px; align-items: center; }
     .row > * { flex: 1 1 auto; }
     main {
@@ -52,233 +41,128 @@
       max-width: 680px;
       margin: 0 auto;
     }
-    .empty {
-      text-align: center;
-      color: var(--muted);
-      padding: 40px 16px;
-    }
+    .empty { text-align: center; color: var(--muted); padding: 40px 16px; }
     .empty h2 { color: var(--text); margin: 0 0 8px 0; }
+    .empty .sub { margin-top: 20px; font-size: 13px; }
     .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      background: var(--primary);
-      color: var(--primary-ink);
-      border: 0;
-      border-radius: 10px;
-      padding: 12px 16px;
-      font-size: 16px;
-      font-weight: 600;
-      cursor: pointer;
-      min-height: 44px;
+      display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+      background: var(--primary); color: var(--primary-ink);
+      border: 0; border-radius: 10px; padding: 12px 16px;
+      font-size: 16px; font-weight: 600; cursor: pointer; min-height: 44px;
     }
     .btn.secondary {
-      background: var(--surface-2);
-      color: var(--text);
-      border: 1px solid var(--border);
-    }
-    .btn.ghost {
-      background: transparent;
-      color: var(--muted);
+      background: var(--surface-2); color: var(--text);
       border: 1px solid var(--border);
     }
     .btn:disabled { opacity: 0.5; cursor: not-allowed; }
-    select, input[type="number"], input[type="text"] {
-      background: var(--surface-2);
-      color: var(--text);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 10px 12px;
-      font-size: 16px;
-      min-height: 44px;
-      width: 100%;
+    select, input[type="number"] {
+      background: var(--surface-2); color: var(--text);
+      border: 1px solid var(--border); border-radius: 8px;
+      padding: 10px 12px; font-size: 16px; min-height: 44px; width: 100%;
     }
-    select { appearance: none; background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%); background-position: calc(100% - 18px) 50%, calc(100% - 13px) 50%; background-size: 5px 5px, 5px 5px; background-repeat: no-repeat; padding-right: 32px; }
+    select {
+      appearance: none;
+      background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+                        linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+      background-position: calc(100% - 18px) 50%, calc(100% - 13px) 50%;
+      background-size: 5px 5px, 5px 5px;
+      background-repeat: no-repeat;
+      padding-right: 32px;
+    }
     .section-title {
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: var(--muted);
-      margin: 18px 0 8px 0;
+      font-size: 12px; text-transform: uppercase; letter-spacing: 1px;
+      color: var(--muted); margin: 18px 0 8px 0;
     }
     .exercise {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 14px;
-      margin-bottom: 12px;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 14px; margin-bottom: 12px;
     }
-    .ex-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 10px;
-      margin-bottom: 8px;
-    }
+    .ex-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 8px; }
     .ex-name { font-size: 17px; font-weight: 600; line-height: 1.3; }
     .tier {
-      display: inline-block;
-      font-size: 11px;
-      font-weight: 700;
-      padding: 2px 8px;
-      border-radius: 999px;
-      background: var(--surface-2);
-      color: var(--muted);
-      border: 1px solid var(--border);
+      display: inline-block; font-size: 11px; font-weight: 700;
+      padding: 2px 8px; border-radius: 999px;
+      background: var(--surface-2); color: var(--muted); border: 1px solid var(--border);
     }
     .tier.t1 { background: #7f1d1d; color: #fecaca; border-color: #991b1b; }
     .tier.t2 { background: #713f12; color: #fde68a; border-color: #854d0e; }
     .tier.t3 { background: #1e3a8a; color: #bfdbfe; border-color: #1d4ed8; }
-    .ex-plan {
-      font-size: 14px;
-      color: var(--muted);
-      margin-bottom: 4px;
-    }
+    .ex-plan { font-size: 14px; color: var(--muted); margin-bottom: 4px; }
     .ex-notes {
-      font-size: 13px;
-      color: var(--muted);
-      font-style: italic;
-      margin-top: 6px;
-      padding-top: 6px;
-      border-top: 1px dashed var(--border);
+      font-size: 13px; color: var(--muted); font-style: italic;
+      margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--border);
     }
-    .sets {
-      margin-top: 12px;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-    .set-row {
-      display: grid;
-      grid-template-columns: 36px 1fr 1fr 44px;
-      gap: 6px;
-      align-items: center;
-    }
-    .set-row .set-num {
-      font-size: 14px;
-      color: var(--muted);
-      text-align: center;
-      font-variant-numeric: tabular-nums;
-    }
-    .set-row input {
-      padding: 8px 10px;
-      font-size: 15px;
-      text-align: center;
-      min-height: 40px;
-    }
-    .set-row .done {
-      background: transparent;
-      color: var(--muted);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 8px 0;
-      min-height: 40px;
-      font-size: 18px;
-      cursor: pointer;
-    }
-    .set-row .done.done-on {
-      background: var(--ok);
-      color: #052e16;
-      border-color: var(--ok);
-    }
+    .sets { margin-top: 12px; display: flex; flex-direction: column; gap: 6px; }
     .sets-header {
-      display: grid;
-      grid-template-columns: 36px 1fr 1fr 44px;
-      gap: 6px;
-      font-size: 11px;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      padding: 0 2px;
+      display: grid; grid-template-columns: 36px 1fr 1fr 44px;
+      gap: 6px; font-size: 11px; color: var(--muted);
+      text-transform: uppercase; letter-spacing: 0.5px; padding: 0 2px;
     }
-    .sets-header.paired,
-    .set-row.paired {
-      grid-template-columns: 36px 72px 1fr 1fr 44px;
+    .sets-header.paired, .set-row.paired { grid-template-columns: 36px 72px 1fr 1fr 44px; }
+    .set-row {
+      display: grid; grid-template-columns: 36px 1fr 1fr 44px;
+      gap: 6px; align-items: center;
     }
-    .set-row.paired .part-label {
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--muted);
-      letter-spacing: 0.3px;
+    .set-row .set-num { font-size: 14px; color: var(--muted); text-align: center; font-variant-numeric: tabular-nums; }
+    .set-row input { padding: 8px 10px; font-size: 15px; text-align: center; min-height: 40px; }
+    .set-row .done {
+      background: transparent; color: var(--muted);
+      border: 1px solid var(--border); border-radius: 8px;
+      padding: 8px 0; min-height: 40px; font-size: 18px; cursor: pointer;
     }
+    .set-row .done.done-on { background: var(--ok); color: #052e16; border-color: var(--ok); }
+    .set-row.paired .part-label { font-size: 12px; font-weight: 600; color: var(--muted); }
     .set-row.part-heavy .part-label { color: #fca5a5; }
     .set-row.part-backoff .part-label { color: #93c5fd; }
     .set-row.part-backoff {
-      margin-bottom: 8px;
-      padding-bottom: 8px;
+      margin-bottom: 8px; padding-bottom: 8px;
       border-bottom: 1px dashed var(--border);
     }
-    .set-row.part-backoff:last-child {
-      border-bottom: 0;
-      margin-bottom: 0;
-      padding-bottom: 0;
+    .set-row.part-backoff:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+    /* RPE bar */
+    .rpe-bar { margin-top: 14px; }
+    .rpe-label {
+      font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
+      color: var(--muted); margin-bottom: 6px;
     }
-    .rating-bar {
-      display: flex;
-      gap: 0;
-      margin-top: 14px;
-      border-radius: 10px;
-      overflow: hidden;
+    .rpe-btns {
+      display: flex; border-radius: 10px; overflow: hidden;
       border: 1px solid var(--border);
     }
-    .rating-btn {
-      flex: 1;
-      padding: 9px 4px;
-      font-size: 13px;
-      font-weight: 600;
-      border: 0;
-      background: var(--surface-2);
-      color: var(--muted);
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-      min-height: 42px;
-      border-right: 1px solid var(--border);
+    .rpe-btn {
+      flex: 1; padding: 9px 4px; font-size: 13px; font-weight: 600;
+      border: 0; border-right: 1px solid var(--border);
+      background: var(--surface-2); color: var(--muted);
+      cursor: pointer; transition: background 0.15s, color 0.15s; min-height: 42px;
     }
-    .rating-btn:last-child { border-right: 0; }
-    .rating-btn.active-easy   { background: #1d4ed8; color: #bfdbfe; }
-    .rating-btn.active-ok     { background: #166534; color: #bbf7d0; }
-    .rating-btn.active-hard   { background: #991b1b; color: #fecaca; }
+    .rpe-btn:last-child { border-right: 0; }
+    .rpe-btn.r5.active, .rpe-btn.r6.active { background: #1e3a8a; color: #bfdbfe; }
+    .rpe-btn.r7.active, .rpe-btn.r8.active { background: #166534; color: #bbf7d0; }
+    .rpe-btn.r9.active, .rpe-btn.r10.active { background: #991b1b; color: #fecaca; }
+    /* Session notes */
+    .session-notes {
+      width: 100%; min-height: 76px;
+      background: var(--surface-2); color: var(--text);
+      border: 1px solid var(--border); border-radius: 10px;
+      padding: 10px 12px; font-size: 15px; font-family: inherit; resize: vertical;
+    }
     footer {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: var(--surface);
-      border-top: 1px solid var(--border);
+      position: fixed; bottom: 0; left: 0; right: 0;
+      background: var(--surface); border-top: 1px solid var(--border);
       padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px));
-      display: flex;
-      gap: 8px;
-      z-index: 10;
+      display: flex; gap: 6px; z-index: 10;
     }
-    footer > * { flex: 1; }
+    footer > .btn { flex: 1; font-size: 13px; padding: 10px 6px; }
     .toast {
-      position: fixed;
-      left: 50%;
-      bottom: 110px;
+      position: fixed; left: 50%; bottom: 110px;
       transform: translateX(-50%);
-      background: var(--surface-2);
-      color: var(--text);
-      border: 1px solid var(--border);
-      padding: 10px 16px;
-      border-radius: 999px;
-      font-size: 14px;
-      z-index: 100;
-      opacity: 0;
-      transition: opacity 0.2s, transform 0.2s;
-      pointer-events: none;
+      background: var(--surface-2); color: var(--text);
+      border: 1px solid var(--border); padding: 10px 16px;
+      border-radius: 999px; font-size: 14px; z-index: 100;
+      opacity: 0; transition: opacity 0.2s, transform 0.2s; pointer-events: none;
     }
     .toast.show { opacity: 1; transform: translateX(-50%) translateY(-4px); }
-    .status {
-      font-size: 12px;
-      color: var(--muted);
-      margin-top: 6px;
-    }
-    .meta-line {
-      font-size: 13px;
-      color: var(--muted);
-      margin-top: 4px;
-    }
+    .status { font-size: 12px; color: var(--muted); margin-top: 6px; }
     @media (min-width: 520px) {
       .set-row, .sets-header { grid-template-columns: 44px 1fr 1fr 56px; }
       .sets-header.paired, .set-row.paired { grid-template-columns: 44px 88px 1fr 1fr 56px; }
@@ -298,17 +182,19 @@
   <main id="main">
     <div class="empty" id="emptyState">
       <h2>Kom i gang</h2>
-      <p>Velg <code>strength_program.json</code> fra Google Drive eller telefonens lagring for å laste programmet.</p>
-      <button class="btn" id="loadBtn">Velg programfil</button>
-      <input type="file" id="fileInput" accept="application/json,.json" hidden />
-      <p class="status">Dataene lagres lokalt på telefonen etter første innlasting.</p>
+      <p>Velg <code>program.json</code> for å laste treningsprogrammet.</p>
+      <button class="btn" id="loadProgramBtn">Velg program.json</button>
+      <input type="file" id="fileProgramInput" accept="application/json,.json" hidden />
+      <div class="sub">Har du en eksisterende logg? Last den inn via "Last logg" etter at programmet er lastet.</div>
     </div>
   </main>
 
   <footer id="footer" hidden>
-    <button class="btn secondary" id="reloadBtn">Bytt fil</button>
-    <button class="btn" id="exportBtn">Eksporter</button>
-    <input type="file" id="fileInput2" accept="application/json,.json" hidden />
+    <button class="btn secondary" id="footerProgramBtn">Bytt program</button>
+    <button class="btn secondary" id="footerLogBtn">Last logg</button>
+    <button class="btn" id="exportBtn">Eksporter logg</button>
+    <input type="file" id="fileProgramInput2" accept="application/json,.json" hidden />
+    <input type="file" id="fileLogInput" accept="application/json,.json" hidden />
   </footer>
 
   <div class="toast" id="toast"></div>
@@ -317,560 +203,559 @@
     (function () {
       "use strict";
 
-      const STORAGE_KEY = "strengthapp:program:v1";
-      const STATE_KEY = "strengthapp:state:v1";
+      const PROGRAM_KEY = "strengthapp:program:v2";
+      const LOG_KEY     = "strengthapp:log:v2";
+      const STATE_KEY   = "strengthapp:state:v2";
+      const RPE_VALUES  = [5, 6, 7, 8, 9, 10];
+      const WEEKDAY_MAP = { 1: "Upper A", 2: "Lower A", 3: "Upper B", 4: "Lower B", 5: "Upper C" };
 
-      const $ = (id) => document.getElementById(id);
-      const titleEl = $("title");
-      const weekSelect = $("weekSelect");
-      const daySelect = $("daySelect");
+      const $ = id => document.getElementById(id);
+      const titleEl    = $("title");
+      const weekSel    = $("weekSelect");
+      const daySel     = $("daySelect");
       const statusLine = $("statusLine");
-      const main = $("main");
+      const mainEl     = $("main");
       const emptyState = $("emptyState");
-      const footer = $("footer");
-      const loadBtn = $("loadBtn");
-      const reloadBtn = $("reloadBtn");
-      const exportBtn = $("exportBtn");
-      const fileInput = $("fileInput");
-      const fileInput2 = $("fileInput2");
-      const toastEl = $("toast");
+      const footer     = $("footer");
+      const toastEl    = $("toast");
 
-      let program = null; // parsed JSON (mutable)
+      let program = null;
+      let log     = null;
       let uiState = { weekIdx: 0, dayIdx: 0 };
+      let currentSession = null;
       let toastTimer = null;
 
-      const WEEKDAY_TO_SESSION_HINT = {
-        1: "Upper A",   // Monday
-        2: "Lower A",   // Tuesday
-        3: "Upper B",   // Wednesday
-        4: "Lower B",   // Thursday
-        5: "Upper C"    // Friday
-      };
-
+      // ── Storage ───────────────────────────────────────────────────────────
       function toast(msg) {
         toastEl.textContent = msg;
         toastEl.classList.add("show");
         clearTimeout(toastTimer);
-        toastTimer = setTimeout(() => toastEl.classList.remove("show"), 1800);
+        toastTimer = setTimeout(() => toastEl.classList.remove("show"), 1900);
       }
 
       function saveProgram() {
-        try {
-          localStorage.setItem(STORAGE_KEY, JSON.stringify(program));
-        } catch (e) {
-          toast("Lagring feilet: " + e.message);
-        }
+        try { localStorage.setItem(PROGRAM_KEY, JSON.stringify(program)); }
+        catch (e) { toast("Lagringsfeil: " + e.message); }
+      }
+
+      function saveLog() {
+        try { localStorage.setItem(LOG_KEY, JSON.stringify(log)); }
+        catch (e) { toast("Lagringsfeil: " + e.message); }
       }
 
       function saveState() {
-        try {
-          localStorage.setItem(STATE_KEY, JSON.stringify(uiState));
-        } catch (e) { /* ignore */ }
+        try { localStorage.setItem(STATE_KEY, JSON.stringify(uiState)); } catch (_) {}
       }
 
       function loadFromStorage() {
         try {
-          const raw = localStorage.getItem(STORAGE_KEY);
-          if (!raw) return false;
-          program = JSON.parse(raw);
-          const rawState = localStorage.getItem(STATE_KEY);
-          if (rawState) uiState = JSON.parse(rawState);
-          return true;
-        } catch (e) {
-          return false;
-        }
+          const rp = localStorage.getItem(PROGRAM_KEY);
+          const rl = localStorage.getItem(LOG_KEY);
+          const rs = localStorage.getItem(STATE_KEY);
+          if (rp) program = JSON.parse(rp);
+          if (rl) log     = JSON.parse(rl);
+          if (rs) uiState = JSON.parse(rs);
+          return !!program;
+        } catch (_) { return false; }
       }
 
+      // ── Validation ────────────────────────────────────────────────────────
       function validateProgram(obj) {
         if (!obj || typeof obj !== "object") return "Ikke et gyldig JSON-objekt.";
-        if (!Array.isArray(obj.weeks)) return "Mangler 'weeks'-array.";
-        if (obj.weeks.length === 0) return "'weeks' er tom.";
-        for (const w of obj.weeks) {
-          if (!Array.isArray(w.days)) return "En uke mangler 'days'.";
-        }
+        if (!Array.isArray(obj.weeks))        return "Mangler 'weeks'-array.";
+        if (obj.weeks.length === 0)           return "'weeks' er tom.";
         return null;
       }
 
-      function pickDefaultDay() {
-        // Try to match weekday to session
-        const today = new Date();
-        const dow = today.getDay(); // 0 Sun, 1 Mon, ... 5 Fri
-        const hint = WEEKDAY_TO_SESSION_HINT[dow];
-        if (!hint) return 0;
-        const week = program.weeks[uiState.weekIdx] || program.weeks[0];
-        if (!week) return 0;
-        const idx = week.days.findIndex((d) => d && d.session === hint);
-        return idx >= 0 ? idx : 0;
+      function validateLog(obj) {
+        if (!obj || typeof obj !== "object") return "Ikke et gyldig JSON-objekt.";
+        if (!Array.isArray(obj.sessions))    return "Mangler 'sessions'-array.";
+        return null;
       }
 
-      function fmtLoadKg(load, loadNote) {
-        if (load === null || load === undefined) {
-          return loadNote ? loadNote : "–";
+      // ── Log management ────────────────────────────────────────────────────
+      function createEmptyLog() {
+        return {
+          metadata: {
+            schema_version: "2.0",
+            athlete: program?.metadata?.athlete?.name || "",
+            program_name: program?.metadata?.program?.name || "",
+            last_session: null
+          },
+          sessions: []
+        };
+      }
+
+      // Convert old paired format {heavy:{...}, backoff:{...}} to new flat format [{type:"heavy",...}, ...]
+      function migrateLegacyLog(logObj) {
+        if (!Array.isArray(logObj.sessions)) return logObj;
+        for (const session of logObj.sessions) {
+          if (!Array.isArray(session.exercises)) continue;
+          for (const ex of session.exercises) {
+            if (!Array.isArray(ex.actual_sets) || ex.actual_sets.length === 0) continue;
+            const first = ex.actual_sets[0];
+            if (
+              first && typeof first === "object" &&
+              !("type" in first) &&
+              ("heavy" in first || "backoff" in first)
+            ) {
+              const newSets = [];
+              for (const s of ex.actual_sets) {
+                if (s.heavy)   newSets.push({ type: "heavy",   reps: s.heavy.reps,   load_kg: s.heavy.load_kg,   completed: s.heavy.completed,   completed_at: s.heavy.completed_at });
+                if (s.backoff) newSets.push({ type: "backoff", reps: s.backoff.reps, load_kg: s.backoff.load_kg, completed: s.backoff.completed, completed_at: s.backoff.completed_at });
+              }
+              ex.actual_sets = newSets;
+            }
+          }
         }
-        if (typeof load === "number") {
-          return load + " kg" + (loadNote ? " (" + loadNote + ")" : "");
+        return logObj;
+      }
+
+      function getOrCreateSession() {
+        if (!program || !log) return null;
+        const week = program.weeks[uiState.weekIdx];
+        const day  = week && week.days[uiState.dayIdx];
+        if (!week || !day) return null;
+        const weekNum = week.week_number != null ? week.week_number : uiState.weekIdx + 1;
+        // Find last matching session
+        for (let i = log.sessions.length - 1; i >= 0; i--) {
+          const s = log.sessions[i];
+          if (s.week_number === weekNum && s.session === day.session) return s;
         }
-        if (Array.isArray(load)) {
-          return load.join(" → ") + " kg";
+        // Create new
+        const session = {
+          week_number: weekNum,
+          date: new Date().toISOString().split("T")[0],
+          day: day.day,
+          session: day.session,
+          duration_minutes: day.estimated_duration_minutes || 60,
+          exercises: [],
+          session_notes: null
+        };
+        log.sessions.push(session);
+        return session;
+      }
+
+      function getOrCreateExercise(session, programEx) {
+        let ex = session.exercises.find(e => e.name === programEx.name);
+        if (!ex) {
+          ex = {
+            name: programEx.name,
+            planned_load_kg: programEx.load_kg,
+            actual_sets: [],
+            rpe_actual: null,
+            notes: null
+          };
+          session.exercises.push(ex);
         }
+        return ex;
+      }
+
+      // ── Exercise helpers ──────────────────────────────────────────────────
+      function isPaired(ex) {
+        return ex.load_kg && typeof ex.load_kg === "object" && !Array.isArray(ex.load_kg)
+          && ("heavy" in ex.load_kg || "backoff" in ex.load_kg);
+      }
+
+      function parsePairedReps(ex) {
+        const note = ex.reps_note || "";
+        const m = note.match(/(\d+)\s*reps/gi);
+        if (m && m.length >= 2) {
+          const ns = m.map(s => parseInt(s, 10)).filter(n => !isNaN(n));
+          if (ns.length >= 2) return { heavy: ns[0], backoff: ns[1] };
+        }
+        return { heavy: null, backoff: null };
+      }
+
+      function defaultLoad(load) {
+        if (typeof load === "number") return load;
+        if (Array.isArray(load) && load.length) return load[load.length - 1];
+        if (load && typeof load === "object") {
+          if ("backoff" in load) return load.backoff;
+          if ("heavy"   in load) return load.heavy;
+        }
+        return "";
+      }
+
+      function fmtLoad(load, note) {
+        if (load === null || load === undefined) return note || "\u2013";
+        if (typeof load === "number") return load + " kg" + (note ? " (" + note + ")" : "");
+        if (Array.isArray(load)) return load.join(" \u2192 ") + " kg";
         if (typeof load === "object") {
           const parts = [];
-          if ("heavy" in load) parts.push("Tung: " + load.heavy + " kg");
+          if ("heavy"   in load) parts.push("Tung: "     + load.heavy   + " kg");
           if ("backoff" in load) parts.push("Back-off: " + load.backoff + " kg");
-          if (parts.length === 0) {
-            for (const k in load) parts.push(k + ": " + load[k]);
-          }
+          if (!parts.length) for (const k in load) parts.push(k + ": " + load[k]);
           return parts.join(" / ");
         }
         return String(load);
       }
 
-      function defaultLoadForLogging(load) {
-        if (typeof load === "number") return load;
-        if (Array.isArray(load) && load.length) return load[load.length - 1];
-        if (load && typeof load === "object") {
-          if ("backoff" in load) return load.backoff;
-          if ("heavy" in load) return load.heavy;
-        }
-        return "";
-      }
-
-      function isPairedExercise(ex) {
-        return (
-          ex.load_kg &&
-          typeof ex.load_kg === "object" &&
-          !Array.isArray(ex.load_kg) &&
-          ("heavy" in ex.load_kg || "backoff" in ex.load_kg)
-        );
-      }
-
-      // Best-effort parse of planned reps from reps_note for paired exercises,
-      // e.g. "3 rounds of: 2 reps × 90.0 kg → 15 reps × 60.0 kg"
-      function parsePairedReps(ex) {
-        const defaults = { heavy: null, backoff: null };
-        const note = ex.reps_note || "";
-        const matches = note.match(/(\d+)\s*reps/gi);
-        if (matches && matches.length >= 2) {
-          const nums = matches.map((m) => parseInt(m, 10)).filter((n) => !isNaN(n));
-          if (nums.length >= 2) {
-            defaults.heavy = nums[0];
-            defaults.backoff = nums[1];
-          }
-        }
-        return defaults;
-      }
-
-      function ensureActualSets(ex) {
-        const planned = typeof ex.sets === "number" && ex.sets > 0 ? ex.sets : 1;
-        if (!Array.isArray(ex.actual_sets)) ex.actual_sets = [];
-
-        if (isPairedExercise(ex)) {
-          const plannedReps = parsePairedReps(ex);
-          const heavyKg = ex.load_kg && "heavy" in ex.load_kg ? ex.load_kg.heavy : "";
-          const backoffKg = ex.load_kg && "backoff" in ex.load_kg ? ex.load_kg.backoff : "";
-          while (ex.actual_sets.length < planned) {
-            ex.actual_sets.push({
-              heavy: {
-                reps: plannedReps.heavy,
-                load_kg: heavyKg,
-                completed: false,
-                completed_at: null
-              },
-              backoff: {
-                reps: plannedReps.backoff,
-                load_kg: backoffKg,
-                completed: false,
-                completed_at: null
-              }
+      // Ensure log exercise has correct number/format of actual_sets
+      function ensureActualSets(logEx, programEx) {
+        if (isPaired(programEx)) {
+          const rounds = typeof programEx.sets === "number" && programEx.sets > 0 ? programEx.sets : 1;
+          const needed = rounds * 2;
+          const pr = parsePairedReps(programEx);
+          const hKg = programEx.load_kg?.heavy   ?? "";
+          const bKg = programEx.load_kg?.backoff ?? "";
+          while (logEx.actual_sets.length < needed) {
+            const isH = logEx.actual_sets.length % 2 === 0;
+            logEx.actual_sets.push({
+              type: isH ? "heavy" : "backoff",
+              reps: isH ? pr.heavy : pr.backoff,
+              load_kg: isH ? hKg : bKg,
+              completed: false, completed_at: null
             });
           }
-          // Guard against older entries missing a sub-part, and remove stale
-          // simple-row fields if an earlier version wrote them here.
-          for (const s of ex.actual_sets) {
-            if (!s.heavy) s.heavy = { reps: plannedReps.heavy, load_kg: heavyKg, completed: false, completed_at: null };
-            if (!s.backoff) s.backoff = { reps: plannedReps.backoff, load_kg: backoffKg, completed: false, completed_at: null };
-            delete s.reps;
-            delete s.load_kg;
-            delete s.completed;
-            delete s.completed_at;
+        } else {
+          const planned = typeof programEx.sets === "number" && programEx.sets > 0 ? programEx.sets : 1;
+          while (logEx.actual_sets.length < planned) {
+            logEx.actual_sets.push({
+              reps: typeof programEx.reps === "number" ? programEx.reps : null,
+              load_kg: defaultLoad(programEx.load_kg),
+              completed: false, completed_at: null
+            });
           }
-          return;
         }
+      }
 
-        while (ex.actual_sets.length < planned) {
-          ex.actual_sets.push({
-            reps: typeof ex.reps === "number" ? ex.reps : null,
-            load_kg: defaultLoadForLogging(ex.load_kg),
-            completed: false,
-            completed_at: null
+      // ── Row builders ──────────────────────────────────────────────────────
+      function numInput(val, mode, step, onChange) {
+        const inp = document.createElement("input");
+        inp.type = "number"; inp.inputMode = mode; inp.min = "0"; inp.step = step;
+        inp.value = val != null && val !== "" ? String(val) : "";
+        inp.addEventListener("input", () => onChange(inp.value.trim()));
+        return inp;
+      }
+
+      function doneBtn(set) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        const upd = () => {
+          btn.className = "done" + (set.completed ? " done-on" : "");
+          btn.textContent = set.completed ? "\u2713" : "\u25cb";
+        };
+        upd();
+        btn.addEventListener("click", () => {
+          set.completed    = !set.completed;
+          set.completed_at = set.completed ? new Date().toISOString() : null;
+          upd(); saveLog();
+        });
+        return btn;
+      }
+
+      function makeSimpleRow(set, i) {
+        const row = document.createElement("div");
+        row.className = "set-row";
+        const num = document.createElement("div");
+        num.className = "set-num";
+        num.textContent = String(i + 1);
+        row.appendChild(num);
+        row.appendChild(numInput(set.reps,    "numeric", "1",    v => { set.reps    = v === "" ? null : Number(v); saveLog(); }));
+        row.appendChild(numInput(set.load_kg, "decimal", "0.25", v => { set.load_kg = v === "" ? null : Number(v); saveLog(); }));
+        row.appendChild(doneBtn(set));
+        return row;
+      }
+
+      function makePairedRow(set, roundNum) {
+        const isH = set.type === "heavy";
+        const row = document.createElement("div");
+        row.className = "set-row paired part-" + (isH ? "heavy" : "backoff");
+        const num = document.createElement("div");
+        num.className = "set-num";
+        num.textContent = isH ? String(roundNum) : "";
+        row.appendChild(num);
+        const lbl = document.createElement("div");
+        lbl.className = "part-label";
+        lbl.textContent = isH ? "Tung" : "Back-off";
+        row.appendChild(lbl);
+        row.appendChild(numInput(set.reps,    "numeric", "1",    v => { set.reps    = v === "" ? null : Number(v); saveLog(); }));
+        row.appendChild(numInput(set.load_kg, "decimal", "0.25", v => { set.load_kg = v === "" ? null : Number(v); saveLog(); }));
+        row.appendChild(doneBtn(set));
+        return row;
+      }
+
+      // ── RPE bar ───────────────────────────────────────────────────────────
+      function renderRpeBar(programEx, logEx) {
+        const bar = document.createElement("div");
+        bar.className = "rpe-bar";
+        const lbl = document.createElement("div");
+        lbl.className = "rpe-label";
+        let plan = "";
+        if (programEx.rpe != null) {
+          if (typeof programEx.rpe === "object") {
+            plan = " \u00b7 plan: " + Object.entries(programEx.rpe).map(([k, v]) => k + " " + v).join(" / ");
+          } else {
+            plan = " \u00b7 plan: " + programEx.rpe;
+          }
+        }
+        lbl.textContent = "RPE" + plan;
+        bar.appendChild(lbl);
+        const btnsEl = document.createElement("div");
+        btnsEl.className = "rpe-btns";
+        const els = [];
+        RPE_VALUES.forEach(v => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          const setClass = () => { btn.className = "rpe-btn r" + v + (logEx.rpe_actual === v ? " active" : ""); };
+          setClass();
+          btn._sc = setClass;
+          btn.textContent = String(v);
+          btn.addEventListener("click", () => {
+            logEx.rpe_actual = logEx.rpe_actual === v ? null : v;
+            els.forEach(b => b._sc());
+            saveLog();
           });
+          els.push(btn);
+          btnsEl.appendChild(btn);
+        });
+        bar.appendChild(btnsEl);
+        return bar;
+      }
+
+      // ── Exercise card ─────────────────────────────────────────────────────
+      function renderExercise(programEx) {
+        const logEx = getOrCreateExercise(currentSession, programEx);
+        ensureActualSets(logEx, programEx);
+
+        const card = document.createElement("div");
+        card.className = "exercise";
+
+        // Header
+        const head = document.createElement("div");
+        head.className = "ex-header";
+        const nameEl = document.createElement("div");
+        nameEl.className = "ex-name";
+        nameEl.textContent = programEx.name || "(uten navn)";
+        head.appendChild(nameEl);
+        if (programEx.tier) {
+          const tier = document.createElement("span");
+          tier.className = "tier " + String(programEx.tier).toLowerCase();
+          tier.textContent = programEx.tier;
+          head.appendChild(tier);
         }
+        card.appendChild(head);
+
+        // Plan line
+        const plan = document.createElement("div");
+        plan.className = "ex-plan";
+        const pp = [];
+        if (typeof programEx.sets === "number") pp.push(programEx.sets + " sett");
+        if (programEx.reps != null)             pp.push("\u00d7 " + programEx.reps + " reps");
+        else if (programEx.reps_note)           pp.push("\u00d7 " + programEx.reps_note);
+        pp.push("@ " + fmtLoad(programEx.load_kg, programEx.load_note));
+        plan.textContent = pp.join("  \u00b7  ");
+        card.appendChild(plan);
+
+        if (programEx.notes) {
+          const notes = document.createElement("div");
+          notes.className = "ex-notes";
+          notes.textContent = programEx.notes;
+          card.appendChild(notes);
+        }
+
+        // Sets header
+        const hdr = document.createElement("div");
+        hdr.className = "sets-header";
+        if (isPaired(programEx)) {
+          hdr.innerHTML = "<div>#</div><div>Del</div><div>Reps</div><div>Vekt (kg)</div><div></div>";
+          hdr.classList.add("paired");
+        } else {
+          hdr.innerHTML = "<div>#</div><div>Reps</div><div>Vekt (kg)</div><div></div>";
+        }
+        card.appendChild(hdr);
+
+        // Sets rows
+        const wrap = document.createElement("div");
+        wrap.className = "sets";
+        if (isPaired(programEx)) {
+          for (let i = 0; i < logEx.actual_sets.length; i += 2) {
+            const heavy   = logEx.actual_sets[i];
+            const backoff = logEx.actual_sets[i + 1];
+            if (heavy)   wrap.appendChild(makePairedRow(heavy,   i / 2 + 1));
+            if (backoff) wrap.appendChild(makePairedRow(backoff, i / 2 + 1));
+          }
+        } else {
+          logEx.actual_sets.forEach((set, i) => wrap.appendChild(makeSimpleRow(set, i)));
+        }
+        card.appendChild(wrap);
+
+        // RPE
+        card.appendChild(renderRpeBar(programEx, logEx));
+
+        return card;
       }
 
-      function populateWeekSelect() {
-        weekSelect.innerHTML = "";
-        program.weeks.forEach((w, i) => {
-          const opt = document.createElement("option");
-          opt.value = String(i);
-          const deload = w.is_deload ? " (deload)" : "";
-          opt.textContent = "Uke " + (w.week_number != null ? w.week_number : i + 1) + deload;
-          weekSelect.appendChild(opt);
-        });
-        weekSelect.value = String(uiState.weekIdx);
-      }
+      // ── Day view ──────────────────────────────────────────────────────────
+      function renderDay() {
+        Array.from(mainEl.children).forEach(c => { if (c.id !== "emptyState") c.remove(); });
+        emptyState.hidden = true;
+        footer.hidden = false;
 
-      function populateDaySelect() {
-        daySelect.innerHTML = "";
         const week = program.weeks[uiState.weekIdx];
-        if (!week) return;
-        week.days.forEach((d, i) => {
-          const opt = document.createElement("option");
-          opt.value = String(i);
-          const parts = [];
-          if (d.day) parts.push(d.day);
-          if (d.session) parts.push(d.session);
-          opt.textContent = parts.join(" – ") || ("Dag " + (i + 1));
-          daySelect.appendChild(opt);
-        });
-        daySelect.value = String(uiState.dayIdx);
+        const day  = week && week.days[uiState.dayIdx];
+        if (!day) return;
+
+        currentSession = getOrCreateSession();
+
+        const progName = program.metadata?.program?.name || "Program";
+        titleEl.textContent = progName;
+        const bits = ["Uke " + (week.week_number ?? uiState.weekIdx + 1)];
+        if (day.day)        bits.push(day.day);
+        if (day.session)    bits.push(day.session);
+        if (day.focus)      bits.push("Fokus: " + day.focus);
+        if (week.is_deload) bits.push("DELOAD");
+        statusLine.textContent = bits.join("  \u00b7  ");
+
+        const sections = [
+          { key: "warmup",      label: "Oppvarming" },
+          { key: "main",        label: "Hoved\u00f8velser" },
+          { key: "accessories", label: "Tillegg" }
+        ];
+        for (const s of sections) {
+          const list = Array.isArray(day[s.key]) ? day[s.key] : [];
+          if (!list.length) continue;
+          const h = document.createElement("div");
+          h.className = "section-title";
+          h.textContent = s.label;
+          mainEl.appendChild(h);
+          for (const ex of list) mainEl.appendChild(renderExercise(ex));
+        }
+
+        // Session notes
+        if (currentSession) {
+          const notesH = document.createElement("div");
+          notesH.className = "section-title";
+          notesH.textContent = "Notat for \u00f8kten";
+          mainEl.appendChild(notesH);
+          const ta = document.createElement("textarea");
+          ta.className = "session-notes";
+          ta.placeholder = "Notater, observasjoner...";
+          ta.value = currentSession.session_notes || "";
+          ta.addEventListener("input", () => {
+            currentSession.session_notes = ta.value || null;
+            saveLog();
+          });
+          mainEl.appendChild(ta);
+        }
+
+        saveLog();
       }
 
       function renderEmptyState() {
         emptyState.hidden = false;
         footer.hidden = true;
         statusLine.textContent = "Ingen program lastet.";
-        // Clear any previous rendered day content
-        Array.from(main.children).forEach((c) => { if (c.id !== "emptyState") c.remove(); });
+        Array.from(mainEl.children).forEach(c => { if (c.id !== "emptyState") c.remove(); });
       }
 
-      function renderExercise(ex, section) {
-        ensureActualSets(ex);
-
-        const card = document.createElement("div");
-        card.className = "exercise";
-
-        const head = document.createElement("div");
-        head.className = "ex-header";
-
-        const name = document.createElement("div");
-        name.className = "ex-name";
-        name.textContent = ex.name || "(uten navn)";
-        head.appendChild(name);
-
-        if (ex.tier) {
-          const tier = document.createElement("span");
-          tier.className = "tier " + (String(ex.tier).toLowerCase());
-          tier.textContent = ex.tier;
-          head.appendChild(tier);
-        }
-        card.appendChild(head);
-
-        const plan = document.createElement("div");
-        plan.className = "ex-plan";
-        const planParts = [];
-        if (typeof ex.sets === "number") planParts.push(ex.sets + " sett");
-        if (ex.reps != null) planParts.push("× " + ex.reps + " reps");
-        else if (ex.reps_note) planParts.push("× " + ex.reps_note);
-        planParts.push("@ " + fmtLoadKg(ex.load_kg, ex.load_note));
-        if (ex.rpe != null) {
-          if (typeof ex.rpe === "object") {
-            const rp = [];
-            for (const k in ex.rpe) rp.push(k + " RPE " + ex.rpe[k]);
-            planParts.push(rp.join(" / "));
-          } else {
-            planParts.push("RPE " + ex.rpe);
-          }
-        }
-        plan.textContent = planParts.join("  ·  ");
-        card.appendChild(plan);
-
-        if (ex.notes) {
-          const notes = document.createElement("div");
-          notes.className = "ex-notes";
-          notes.textContent = ex.notes;
-          card.appendChild(notes);
-        }
-
-        const header = document.createElement("div");
-        header.className = "sets-header";
-        if (isPairedExercise(ex)) {
-          header.innerHTML = "<div>#</div><div>Del</div><div>Reps</div><div>Vekt (kg)</div><div></div>";
-          header.classList.add("paired");
-        } else {
-          header.innerHTML = "<div>#</div><div>Reps</div><div>Vekt (kg)</div><div></div>";
-        }
-        card.appendChild(header);
-
-        const wrap = document.createElement("div");
-        wrap.className = "sets";
-
-        if (isPairedExercise(ex)) {
-          ex.actual_sets.forEach((set, i) => {
-            wrap.appendChild(makePairedRow(ex, set, i, "heavy", "Tung", i + 1));
-            wrap.appendChild(makePairedRow(ex, set, i, "backoff", "Back-off", ""));
-          });
-        } else {
-          ex.actual_sets.forEach((set, i) => {
-            wrap.appendChild(makeSimpleRow(ex, set, i));
-          });
-        }
-        card.appendChild(wrap);
-        card.appendChild(renderRatingBar(ex));
-
-        return card;
-      }
-
-      const RATINGS = [
-        { key: "too_easy", label: "For lett", cls: "active-easy" },
-        { key: "ok",       label: "Passelig", cls: "active-ok"   },
-        { key: "too_hard", label: "For hard", cls: "active-hard"  }
-      ];
-
-      function renderRatingBar(ex) {
-        const bar = document.createElement("div");
-        bar.className = "rating-bar";
-        const btns = [];
-        RATINGS.forEach(({ key, label, cls }) => {
-          const btn = document.createElement("button");
-          btn.type = "button";
-          btn.className = "rating-btn" + (ex.session_rating === key ? " " + cls : "");
-          btn.textContent = label;
-          btn.addEventListener("click", () => {
-            // Toggle off if already selected, otherwise select
-            ex.session_rating = ex.session_rating === key ? null : key;
-            btns.forEach((b, i) => {
-              b.className = "rating-btn" + (ex.session_rating === RATINGS[i].key ? " " + RATINGS[i].cls : "");
-            });
-            saveProgram();
-          });
-          btns.push(btn);
-          bar.appendChild(btn);
-        });
-        return bar;
-      }
-
-      function makeSimpleRow(ex, set, i) {
-        const row = document.createElement("div");
-        row.className = "set-row";
-
-        const num = document.createElement("div");
-        num.className = "set-num";
-        num.textContent = String(i + 1);
-        row.appendChild(num);
-
-        const repsInput = document.createElement("input");
-        repsInput.type = "number";
-        repsInput.inputMode = "numeric";
-        repsInput.min = "0";
-        repsInput.step = "1";
-        repsInput.value = set.reps != null && set.reps !== "" ? String(set.reps) : "";
-        repsInput.placeholder = typeof ex.reps === "number" ? String(ex.reps) : "";
-        repsInput.addEventListener("input", () => {
-          const v = repsInput.value.trim();
-          set.reps = v === "" ? null : Number(v);
-          saveProgram();
-        });
-        row.appendChild(repsInput);
-
-        const loadInput = document.createElement("input");
-        loadInput.type = "number";
-        loadInput.inputMode = "decimal";
-        loadInput.min = "0";
-        loadInput.step = "0.25";
-        loadInput.value = set.load_kg != null && set.load_kg !== "" ? String(set.load_kg) : "";
-        const phLoad = defaultLoadForLogging(ex.load_kg);
-        loadInput.placeholder = phLoad !== "" ? String(phLoad) : "";
-        loadInput.addEventListener("input", () => {
-          const v = loadInput.value.trim();
-          set.load_kg = v === "" ? null : Number(v);
-          saveProgram();
-        });
-        row.appendChild(loadInput);
-
-        const done = document.createElement("button");
-        done.type = "button";
-        done.className = "done" + (set.completed ? " done-on" : "");
-        done.textContent = set.completed ? "✓" : "○";
-        done.setAttribute("aria-label", "Marker sett " + (i + 1) + " fullført");
-        done.addEventListener("click", () => {
-          set.completed = !set.completed;
-          set.completed_at = set.completed ? new Date().toISOString() : null;
-          done.className = "done" + (set.completed ? " done-on" : "");
-          done.textContent = set.completed ? "✓" : "○";
-          saveProgram();
-        });
-        row.appendChild(done);
-
-        return row;
-      }
-
-      function makePairedRow(ex, set, setIdx, partKey, partLabel, numLabel) {
-        const part = set[partKey];
-        const row = document.createElement("div");
-        row.className = "set-row paired part-" + partKey;
-
-        const num = document.createElement("div");
-        num.className = "set-num";
-        num.textContent = String(numLabel);
-        row.appendChild(num);
-
-        const label = document.createElement("div");
-        label.className = "part-label";
-        label.textContent = partLabel;
-        row.appendChild(label);
-
-        const repsInput = document.createElement("input");
-        repsInput.type = "number";
-        repsInput.inputMode = "numeric";
-        repsInput.min = "0";
-        repsInput.step = "1";
-        repsInput.value = part.reps != null && part.reps !== "" ? String(part.reps) : "";
-        const plannedReps = parsePairedReps(ex);
-        repsInput.placeholder = plannedReps[partKey] != null ? String(plannedReps[partKey]) : "";
-        repsInput.addEventListener("input", () => {
-          const v = repsInput.value.trim();
-          part.reps = v === "" ? null : Number(v);
-          saveProgram();
-        });
-        row.appendChild(repsInput);
-
-        const loadInput = document.createElement("input");
-        loadInput.type = "number";
-        loadInput.inputMode = "decimal";
-        loadInput.min = "0";
-        loadInput.step = "0.25";
-        loadInput.value = part.load_kg != null && part.load_kg !== "" ? String(part.load_kg) : "";
-        const defaultKg = ex.load_kg && partKey in ex.load_kg ? ex.load_kg[partKey] : "";
-        loadInput.placeholder = defaultKg !== "" ? String(defaultKg) : "";
-        loadInput.addEventListener("input", () => {
-          const v = loadInput.value.trim();
-          part.load_kg = v === "" ? null : Number(v);
-          saveProgram();
-        });
-        row.appendChild(loadInput);
-
-        const done = document.createElement("button");
-        done.type = "button";
-        done.className = "done" + (part.completed ? " done-on" : "");
-        done.textContent = part.completed ? "✓" : "○";
-        done.setAttribute("aria-label", "Marker sett " + (setIdx + 1) + " " + partLabel + " fullført");
-        done.addEventListener("click", () => {
-          part.completed = !part.completed;
-          part.completed_at = part.completed ? new Date().toISOString() : null;
-          done.className = "done" + (part.completed ? " done-on" : "");
-          done.textContent = part.completed ? "✓" : "○";
-          saveProgram();
-        });
-        row.appendChild(done);
-
-        return row;
-      }
-
-      function renderDay() {
-        // Remove any previous day rendering
-        Array.from(main.children).forEach((c) => { if (c.id !== "emptyState") c.remove(); });
-        emptyState.hidden = true;
-        footer.hidden = false;
-
-        const week = program.weeks[uiState.weekIdx];
-        const day = week && week.days[uiState.dayIdx];
-        if (!day) {
-          const msg = document.createElement("div");
-          msg.className = "empty";
-          msg.textContent = "Ingen data for valgt dag.";
-          main.appendChild(msg);
-          return;
-        }
-
-        const progName = (program.metadata && program.metadata.program && program.metadata.program.name) || "Program";
-        titleEl.textContent = progName;
-        const bits = [];
-        bits.push("Uke " + (week.week_number != null ? week.week_number : uiState.weekIdx + 1));
-        if (day.day) bits.push(day.day);
-        if (day.session) bits.push(day.session);
-        if (day.focus) bits.push("Fokus: " + day.focus);
-        if (week.is_deload) bits.push("DELOAD");
-        statusLine.textContent = bits.join("  ·  ");
-
-        const sections = [
-          { key: "warmup", label: "Oppvarming" },
-          { key: "main", label: "Hovedøvelser" },
-          { key: "accessories", label: "Tillegg" }
-        ];
-
-        for (const s of sections) {
-          const list = Array.isArray(day[s.key]) ? day[s.key] : [];
-          if (list.length === 0) continue;
-          const h = document.createElement("div");
-          h.className = "section-title";
-          h.textContent = s.label;
-          main.appendChild(h);
-          for (const ex of list) {
-            main.appendChild(renderExercise(ex, s.key));
-          }
-        }
+      function pickDefaultDay() {
+        const hint = WEEKDAY_MAP[new Date().getDay()];
+        if (!hint) return 0;
+        const week = program.weeks[uiState.weekIdx] || program.weeks[0];
+        if (!week) return 0;
+        const idx = week.days.findIndex(d => d && d.session === hint);
+        return idx >= 0 ? idx : 0;
       }
 
       function refresh() {
         if (!program) { renderEmptyState(); return; }
-        // Clamp indices
         if (uiState.weekIdx >= program.weeks.length) uiState.weekIdx = 0;
         const week = program.weeks[uiState.weekIdx];
         if (!week || uiState.dayIdx >= week.days.length) uiState.dayIdx = 0;
 
-        populateWeekSelect();
-        populateDaySelect();
+        weekSel.innerHTML = "";
+        program.weeks.forEach((w, i) => {
+          const opt = document.createElement("option");
+          opt.value = String(i);
+          opt.textContent = "Uke " + (w.week_number ?? i + 1) + (w.is_deload ? " (deload)" : "");
+          weekSel.appendChild(opt);
+        });
+        weekSel.value = String(uiState.weekIdx);
+
+        daySel.innerHTML = "";
+        const curWeek = program.weeks[uiState.weekIdx];
+        if (curWeek) {
+          curWeek.days.forEach((d, i) => {
+            const opt = document.createElement("option");
+            opt.value = String(i);
+            opt.textContent = [d.day, d.session].filter(Boolean).join(" \u2013") || "Dag " + (i + 1);
+            daySel.appendChild(opt);
+          });
+        }
+        daySel.value = String(uiState.dayIdx);
+
         renderDay();
         saveState();
       }
 
-      function loadProgramFromFile(file) {
-        const reader = new FileReader();
-        reader.onload = () => {
-          try {
-            const obj = JSON.parse(reader.result);
-            const err = validateProgram(obj);
-            if (err) { toast("Ugyldig fil: " + err); return; }
-            program = obj;
-            // Try to pick a sensible default day based on weekday
-            uiState.weekIdx = 0;
-            uiState.dayIdx = pickDefaultDay();
-            saveProgram();
-            saveState();
-            refresh();
-            toast("Program lastet (" + program.weeks.length + " uker)");
-          } catch (e) {
-            toast("Kunne ikke lese JSON: " + e.message);
-          }
-        };
-        reader.onerror = () => toast("Klarte ikke lese filen.");
-        reader.readAsText(file);
+      // ── File loading ──────────────────────────────────────────────────────
+      function readFile(file) {
+        return new Promise((res, rej) => {
+          const r = new FileReader();
+          r.onload  = () => res(r.result);
+          r.onerror = () => rej(new Error("Klarte ikke lese filen."));
+          r.readAsText(file);
+        });
       }
 
-      function exportProgram() {
-        if (!program) { toast("Ingen data å eksportere."); return; }
-        const now = new Date();
-        const pad = (n) => String(n).padStart(2, "0");
-        const stamp = now.getFullYear() + pad(now.getMonth() + 1) + pad(now.getDate()) + "_" + pad(now.getHours()) + pad(now.getMinutes());
-        const filename = "strength_program_logged_" + stamp + ".json";
-        const text = JSON.stringify(program, null, 2);
-        const blob = new Blob([text], { type: "application/json" });
+      async function loadProgramFile(file) {
+        try {
+          const obj = JSON.parse(await readFile(file));
+          const err = validateProgram(obj);
+          if (err) { toast("Ugyldig program.json: " + err); return; }
+          program = obj;
+          // Use current_week from metadata if available
+          const cw = obj.metadata?.program?.current_week;
+          if (cw != null) {
+            const idx = obj.weeks.findIndex(w => w.week_number === cw);
+            uiState.weekIdx = idx >= 0 ? idx : 0;
+          } else {
+            uiState.weekIdx = 0;
+          }
+          if (!log) log = createEmptyLog();
+          uiState.dayIdx = pickDefaultDay();
+          saveProgram(); saveLog();
+          refresh();
+          toast("Program lastet (" + program.weeks.length + " uker)");
+        } catch (e) { toast("Feil: " + e.message); }
+      }
 
-        // Prefer native share (lets user pick Google Drive directly)
+      async function loadLogFile(file) {
+        try {
+          let obj = JSON.parse(await readFile(file));
+          const err = validateLog(obj);
+          if (err) { toast("Ugyldig log.json: " + err); return; }
+          obj = migrateLegacyLog(obj);
+          log = obj;
+          saveLog();
+          if (program) renderDay();
+          toast("Logg lastet (" + log.sessions.length + " \u00f8kter)");
+        } catch (e) { toast("Feil: " + e.message); }
+      }
+
+      // ── Export ────────────────────────────────────────────────────────────
+      function exportLog() {
+        if (!log) { toast("Ingen logg \u00e5 eksportere."); return; }
+        if (currentSession?.date) log.metadata.last_session = currentSession.date;
+        const now = new Date();
+        const p   = n => String(n).padStart(2, "0");
+        const stamp = now.getFullYear() + p(now.getMonth() + 1) + p(now.getDate())
+                      + "_" + p(now.getHours()) + p(now.getMinutes());
+        const filename = "log_" + stamp + ".json";
+        const blob = new Blob([JSON.stringify(log, null, 2)], { type: "application/json" });
+
         if (navigator.canShare && window.File) {
           try {
-            const file = new File([blob], filename, { type: "application/json" });
-            if (navigator.canShare({ files: [file] })) {
-              navigator.share({ files: [file], title: "StrengthApp-logg", text: "Loggede treningsdata" })
+            const sf = new File([blob], filename, { type: "application/json" });
+            if (navigator.canShare({ files: [sf] })) {
+              navigator.share({ files: [sf], title: "StrengthApp logg" })
                 .then(() => toast("Delt."))
-                .catch((err) => {
-                  if (err && err.name !== "AbortError") {
-                    fallbackDownload(blob, filename);
-                  }
-                });
+                .catch(e => { if (e?.name !== "AbortError") fallbackDownload(blob, filename); });
               return;
             }
-          } catch (_) { /* fallthrough */ }
+          } catch (_) {}
         }
         fallbackDownload(blob, filename);
       }
@@ -878,48 +763,49 @@
       function fallbackDownload(blob, filename) {
         const url = URL.createObjectURL(blob);
         const a = document.createElement("a");
-        a.href = url;
-        a.download = filename;
-        document.body.appendChild(a);
-        a.click();
+        a.href = url; a.download = filename;
+        document.body.appendChild(a); a.click();
         setTimeout(() => { URL.revokeObjectURL(url); a.remove(); }, 500);
-        toast("Lagret " + filename);
+        toast("Lagret: " + filename);
       }
 
-      // Wire up UI
-      loadBtn.addEventListener("click", () => fileInput.click());
-      reloadBtn.addEventListener("click", () => fileInput2.click());
-      fileInput.addEventListener("change", (e) => {
-        const f = e.target.files && e.target.files[0];
-        if (f) loadProgramFromFile(f);
-        fileInput.value = "";
+      // ── Wire up ───────────────────────────────────────────────────────────
+      $("loadProgramBtn").addEventListener("click",   () => $("fileProgramInput").click());
+      $("footerProgramBtn").addEventListener("click", () => $("fileProgramInput2").click());
+      $("footerLogBtn").addEventListener("click",     () => $("fileLogInput").click());
+      $("exportBtn").addEventListener("click", exportLog);
+
+      $("fileProgramInput").addEventListener("change", e => {
+        const f = e.target.files?.[0]; if (f) loadProgramFile(f);
+        $("fileProgramInput").value = "";
       });
-      fileInput2.addEventListener("change", (e) => {
-        const f = e.target.files && e.target.files[0];
-        if (f) loadProgramFromFile(f);
-        fileInput2.value = "";
+      $("fileProgramInput2").addEventListener("change", e => {
+        const f = e.target.files?.[0]; if (f) loadProgramFile(f);
+        $("fileProgramInput2").value = "";
       });
-      exportBtn.addEventListener("click", exportProgram);
-      weekSelect.addEventListener("change", () => {
-        uiState.weekIdx = Number(weekSelect.value);
-        uiState.dayIdx = 0;
+      $("fileLogInput").addEventListener("change", e => {
+        const f = e.target.files?.[0]; if (f) loadLogFile(f);
+        $("fileLogInput").value = "";
+      });
+
+      weekSel.addEventListener("change", () => {
+        uiState.weekIdx = Number(weekSel.value);
+        uiState.dayIdx  = 0;
         refresh();
       });
-      daySelect.addEventListener("change", () => {
-        uiState.dayIdx = Number(daySelect.value);
+      daySel.addEventListener("change", () => {
+        uiState.dayIdx = Number(daySel.value);
         renderDay();
         saveState();
       });
 
-      // Service worker for offline
       if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker.register("sw.js").catch(() => { /* ignore */ });
-        });
+        window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
       }
 
-      // Boot
+      // ── Boot ──────────────────────────────────────────────────────────────
       if (loadFromStorage()) {
+        if (!log) log = createEmptyLog();
         refresh();
       } else {
         renderEmptyState();
